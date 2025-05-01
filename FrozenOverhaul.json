@@ -1,0 +1,13 @@
+{
+    "id": "FrozenOH",
+    "name": "FrozenOverhaul",
+    "author": ["MrFreese"],
+    "description": "Adds support for Negative Playing Cards, Foil Holographic and Polychrome Tarot and Planet cards, and adds ways to obtain them",
+    "prefix": "frover",
+    "main_file": "FrozenOverhaul.lua",
+    "badge_colour": "0d25ff",
+    "dependencies": [
+        "Steamodded (>=1.0.0~ALPHA-1225a)"
+    ],
+    "version": "1.0.0"
+}
