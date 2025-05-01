@@ -58,17 +58,132 @@ SMODS.Atlas {
 	py = 95
 }
 
-SMODS.Atlas {
-	-- Key for code to find it with
-	key = "FroverhaulJokers",
-	-- The name of the file, for the code to pull the atlas from
-	path = "FroverhaulJokers",
-	-- Width of each sprite in 1x size
-	px = 71,
-	-- Height of each sprite in 1x size
-	py = 95
+
+
+---------------------------------------------------------------Decks------------------------------------------------------------------
+
+function randomSelect(table)
+    for i = 1, 5 do
+        math.random()
+    end
+    if #table == 0 then
+        return nil -- Table is empty
+    end
+    local randomIndex = math.random(1, #table)
+    return table[randomIndex]
+end
+
+SMODS.Back{
+    name = "Insanity",
+    key = "insane",
+    pos = {x = 4, y = 3},
+    config = {random = true},
+    loc_txt = {
+        name = "Insanity",
+        text ={
+            "Start with a Deck",
+            "full of",
+            "{C:attention}Random{} cards"
+        }
+    },
+    apply = function()
+        G.E_MANAGER:add_event(Event({
+            func = function()
+                local trandom_m = {
+                    G.P_CENTERS.m_stone,
+                    G.P_CENTERS.m_steel,
+                    G.P_CENTERS.m_glass,
+                    G.P_CENTERS.m_gold,
+                    G.P_CENTERS.m_bonus,
+                    G.P_CENTERS.m_mult,
+                    G.P_CENTERS.m_wild,
+                    G.P_CENTERS.m_lucky,
+                    "NOTHING"
+                }
+                local trandom_e = {
+                    {foil = true},
+                    {holo = true},
+                    {polychrome = true},
+					{frover_iridescent = true},
+
+                    "NOTHING"
+                }
+                local trandom_r = {
+                    "A",
+                    "K",
+                    "Q",
+                    "J",
+                    "T",
+                    "9",
+                    "8",
+                    "7",
+                    "6",
+                    "5",
+                    "4",
+                    "3",
+                    "2"
+                }
+                local trandom_s = {
+                    "C",
+                    "D",
+                    "H",
+                    "S"
+                }
+                local trandom_g = {
+                    "Red",
+                    "Blue",
+                    "Gold",
+                    "Purple",
+                    "NOTHING"
+                }
+                for i = #G.playing_cards, 1, -1 do
+                    local random_m = randomSelect(trandom_m)
+                    local random_e = randomSelect(trandom_e)
+                    local random_r = randomSelect(trandom_r)
+                    local random_s = randomSelect(trandom_s)
+                    local random_g = randomSelect(trandom_g)
+
+                    G.playing_cards[i]:set_base(G.P_CARDS[random_s .. "_" .. random_r])
+                    if random_m  ~= "NOTHING" then
+                        G.playing_cards[i]:set_ability(random_m)
+                    end
+                    if random_e ~= "NOTHING" then
+                        G.playing_cards[i]:set_edition(random_e, true, true)
+                    end
+                    if random_g ~= "NOTHING" then
+                        G.playing_cards[i]:set_seal(random_g, true, true)
+                    end
+                end
+
+                return true
+            end
+        }))
+    end
 }
 
+
+SMODS.Back{
+    name = "Frozen Deck",
+    key = "frozendeck",
+    pos = {x = 4, y = 3},
+    config = {random = true},
+    loc_txt = {
+        name = "Frozen Deck",
+        text ={
+            "Start with an",
+            "{C:legendary}Iridescent{} Blueprint"
+        }
+    },
+    
+	apply = function()
+        G.E_MANAGER:add_event(Event({
+            func = function()
+                SMODS.add_card({key="j_blueprint", edition="e_frover_iridescent"})
+				return true
+            end
+        }))
+    end
+}
 
 ---------------------------------------------------------------------Jokers--------------------------------------------------------------------------
 SMODS.Joker {
