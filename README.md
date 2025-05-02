@@ -70,6 +70,25 @@ Bug reports and feature suggestions are also welcome via [Issues](https://github
 
 ## 🧊 Stay Frosty!
 
+Planned Updates:
+Polishing Iridescent (new spectral card, overwrite wheel and aura localization, iridescent joker tag) 5/2/2025
+Wild Card Rework: 5/3/2025
+Ceramic Cards
+Negative Card Balancing and Rework
+Legendary Joker Rework (Yorick, Perkeo, Triboulet)
+^Mult Jokers (cavendish rework)
+Legendary Part 2 (Chicot, Canio)
+Voucher Rework (voucher tags give a free voucher in the next shop) 
+Showmans Stage Voucher (Vouchers can re-appear in the shop)
+Bazarr Voucher (+1 booster pack, +1 voucher)
+
+More Xmult Jokers and Various Jokers
+
+More Editions? Plague Card?
+We shall see from there!
+
+
+
 > *Frozen Overhaul is all about balancing power, control, and fun while staying true to the original flavor of Balatro. Whether you're pushing past Ante 20 or theorycrafting powerful new builds — there's something cool here for everyone.*
 
 ---
