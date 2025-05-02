@@ -468,13 +468,13 @@ SMODS.Consumable {
         ['en-us'] = {
             name = 'Ghost',
             text = {
-				 "Turns up to 2 selected",
+				 "Turns up to 3 selected",
 				 "cards {C:dark_edition}Negative{}",
 				 "{C:red}-1 discard{}"
 				}
         },
     },
-    config = { hold = 2, extra = { odds = 1, discard_size = 1 }, max_highlighted = 2 },
+    config = { hold = 3, extra = { odds = 1, discard_size = 1 }, max_highlighted = 3 },
 	loc_vars = function(self, info_queue, card)
 		return { vars = { card.ability.hold, card.ability.extra.odds, card.ability.extra.discard_size, (G.GAME.probabilities.normal or 1) } }
 	end,
