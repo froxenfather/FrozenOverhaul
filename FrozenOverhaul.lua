@@ -257,7 +257,7 @@ SMODS.Joker {
 SMODS.Joker {
     key = 'alecpollard',
     loc_txt = {
-        name = 'Alec Pollard',
+        name = 'The Grizzler',
         text = {
             "Each played card has a",
             "{C:green}#2# in #1#{} chance to",
