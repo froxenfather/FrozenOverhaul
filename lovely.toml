@@ -15,6 +15,15 @@ overwrite = false
 
 [[patches]]
 [patches.pattern]
+target = "game.lua"
+pattern = "replace_card.states.visible = false"
+position = "before"
+payload = "replace_card:set_ability('m_glass', true, true)"
+match_indent = true
+overwrite = false
+
+[[patches]]
+[patches.pattern]
 target = '=[SMODS _ "src/overrides.lua"]'
 pattern = '''if _key == "wheel_of_fortune" or _key == "aura" then -- set base game edition polling'''
 position = 'after'

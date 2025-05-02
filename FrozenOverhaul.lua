@@ -16,13 +16,24 @@ Line 482, Castle 2 ------------ Shows the use of reset_game_globals and colour v
 --Creates an atlas for cards to use
 SMODS.Atlas {
 	-- Key for code to find it with
-	key = "FrozenOverhaul",
+	key = "Froverhaul",
 	-- The name of the file, for the code to pull the atlas from
-	path = "FrozenOverhaul.png",
+	path = "Froverhaul.png",
 	-- Width of each sprite in 1x size
 	px = 71,
 	-- Height of each sprite in 1x size
 	py = 95
+}
+
+SMODS.Atlas {
+	-- Key for code to find it with
+	key = "FroverhaulTag",
+	-- The name of the file, for the code to pull the atlas from
+	path = "FroverhaulTag.png",
+	-- Width of each sprite in 1x size
+	px = 34,
+	-- Height of each sprite in 1x size
+	py = 34
 }
 
 SMODS.Atlas {
@@ -228,7 +239,7 @@ SMODS.Joker {
 	-- Sets rarity. 1 common, 2 uncommon, 3 rare, 4 legendary.
 	rarity = 1,
 	-- Which atlas key to pull from.
-	atlas = 'FrozenOverhaul',
+	atlas = 'Froverhaul',
 	-- This card's position on the atlas, starting at {x=0,y=0} for the very top left.
 	pos = { x = 0, y = 0 },
 	-- Cost of card in shop.
@@ -267,7 +278,7 @@ SMODS.Joker {
     },
     config = { extra = { chance = 10 } },
     rarity = 3,
-    atlas = 'FrozenOverhaul',
+    atlas = 'Froverhaul',
 
     pos = { x = 1, y = 0 },
     cost = 8,
@@ -325,7 +336,7 @@ SMODS.Joker {
 	},
 	config = { extra = { mult = 1, multgain = 2} },
 	rarity = 1,
-	atlas = 'FrozenOverhaul',
+	atlas = 'Froverhaul',
 	pos = { x = 2, y = 0 },
 	cost = 6,
 	loc_vars = function(self, info_queue, card)
@@ -372,10 +383,10 @@ SMODS.Edition({ -- iridescent
 	shader = 'iridescent',
 	-- shader=false,
 	config = {
-		xchips = 2,
+		xchips = 1.7,
 	},
 	in_shop = true,
-	weight = 6,
+	weight = 5,
 	extra_cost = 6,
 	-- disable_base_shader=true,
 	apply_to_float = false,
@@ -398,12 +409,56 @@ SMODS.Edition({ -- iridescent
 })
 
 
-
+-----------------------------------------------------Tags, misc------------------------------------------------------------------
+SMODS.Tag{
+	
+	atlas = "FroverhaulTag",
+	pos = { x = 0, y = 0 },
+	name = "Iridescent Tag",
+	loc_txt = {
+		name = "Iridescent Tag",
+		label = "Iridescent Tag",
+		text = {
+			"Next base edition Joker",
+			"in shop is {C:blue}Iridescent{}",
+			
+		}
+	},
+	order = 3,
+	config = { type = "store_joker_modify", edition = "frover_iridescent" },
+	key = "iridescent",
+	requires = "e_frover_iridescent",
+	min_ante = 1,
+	loc_vars = function(self, info_queue)
+		info_queue[#info_queue + 1] = G.P_CENTERS.e_frover_iridescent
+		return { vars = {} }
+	end,
+	apply = function(self, tag, context)
+		if context.type == "store_joker_modify" then
+			local _applied = nil
+			if not context.card.edition and not context.card.temp_edition and context.card.ability.set == "Joker" then
+				local lock = tag.ID
+				G.CONTROLLER.locks[lock] = true
+				context.card.temp_edition = true
+				tag:yep("+", G.C.DARK_EDITION, function()
+					context.card:set_edition({ frover_iridescent = true }, true)
+					context.card.ability.couponed = true
+					context.card:set_cost()
+					context.card.temp_edition = nil
+					G.CONTROLLER.locks[lock] = nil
+					return true
+				end)
+				_applied = true
+				tag.triggered = true
+			end
+		end
+	end,
+}
 
 ------------------------------------------------------------------Spectrals----------------------------------------------------------
 
 SMODS.Consumable {
-    atlas = 'FrozenOverhaul',
+    atlas = 'Froverhaul',
     key = 'ghost',
     set = 'Spectral',
     discovered = true,
