@@ -34,7 +34,8 @@
 
 ## ✨ New Editions
 
-> [Details Coming Soon!]
+> Iridescent
+- Beautiful way to have jokers and cards give a fat 1.7X Chips when scored or triggered!
 
 ---
 
