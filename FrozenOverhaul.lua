@@ -38,9 +38,9 @@ SMODS.Atlas {
 
 SMODS.Atlas {
 	-- Key for code to find it with
-	key = "FroverhaulSpectral",
+	key = "FroverhaulConsumable",
 	-- The name of the file, for the code to pull the atlas from
-	path = "FroverhaulSpectral.png",
+	path = "FroverhaulConsumable.png",
 	-- Width of each sprite in 1x size
 	px = 71,
 	-- Height of each sprite in 1x size
@@ -458,12 +458,12 @@ SMODS.Tag{
 ------------------------------------------------------------------Spectrals----------------------------------------------------------
 
 SMODS.Consumable {
-    atlas = 'Froverhaul',
+    atlas = 'FroverhaulConsumable',
     key = 'ghost',
     set = 'Spectral',
     discovered = true,
-    pos = { x = 5, y = 0 },
-	soul_pos = {x = 5, y = 1},
+    pos = { x = 0, y = 0 },
+	soul_pos = {x = 0, y = 1},
     loc_txt = {
         ['en-us'] = {
             name = 'Ghost',
@@ -503,6 +503,38 @@ SMODS.Consumable {
 			end
 			return true end }))
 
+		
+	end
+}
+
+
+SMODS.Consumable {
+    atlas = 'FroverhaulConsumable',
+    key = 'graveyard',
+    set = 'Spectral',
+    discovered = true,
+    pos = { x = 1, y = 0 },
+	soul_pos = { x = 1, y = 1 },
+    loc_txt = {
+        ['en-us'] = {
+            name = 'Graveyard',
+            text = {
+				 "Converts entire hand into",
+				 "{C:dark_edition}Stone Cards{}",
+				 "then applies {C:blue}Iridescent{}",
+				 "to a random {C:money}Joker{} or playing card"
+				}
+        },
+    },
+    config = { irid = 3},
+	loc_vars = function(self, info_queue, card)
+		return { vars = { card.ability.irid }}
+	end,
+    use = function(self, card, area)
+		--animation and sound
+		G.E_MANAGER:add_event(Event({trigger = 'after', delay = 0.4, func = function()
+            play_sound('negative', 1.5, 1)
+			return true end }))
 		
 	end
 }
