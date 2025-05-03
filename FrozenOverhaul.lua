@@ -70,6 +70,25 @@ SMODS.Atlas {
 }
 
 
+--functions
+
+function flipAllCards(cards)
+    local i = 0
+    for _, playedCard in ipairs(cards) do
+        i = i + 1
+        local percent = 1.15 - (i - 0.999) / (#G.hand.cards - 0.998) * 0.3
+        G.E_MANAGER:add_event(Event({
+            trigger = 'after',
+            delay = 0.15,
+            func = function()
+                playedCard:flip(); play_sound('card1', percent);
+                playedCard:juice_up(0.3, 0.3); return true
+            end
+        }))
+    end
+end
+--thanks fox
+
 
 ---------------------------------------------------------------Decks------------------------------------------------------------------
 
@@ -522,7 +541,7 @@ SMODS.Consumable {
 				 "Converts entire hand into",
 				 "{C:dark_edition}Stone Cards{}",
 				 "then applies {C:blue}Iridescent{}",
-				 "to a random {C:money}Joker{} or playing card"
+				 "to a random {C:money}Joker{}"
 				}
         },
     },
@@ -530,11 +549,22 @@ SMODS.Consumable {
 	loc_vars = function(self, info_queue, card)
 		return { vars = { card.ability.irid }}
 	end,
-    use = function(self, card, area)
-		--animation and sound
-		G.E_MANAGER:add_event(Event({trigger = 'after', delay = 0.4, func = function()
-            play_sound('negative', 1.5, 1)
-			return true end }))
+	can_use = function(self, card)
+        if G.STATE == G.STATES.SELECTING_HAND or G.STATE == G.STATES.TAROT_PACK or G.STATE == G.STATES.SPECTRAL_PACK then
+
+			return true
+		end
+		return false
+	end,
+
+    use = function(self, card, area, copier)
+ 
+		local cards = G.hand.cards
+		flipAllCards(cards)
+		
+		sendInfoMessage("Flipped all cards, need to implement adding a special boon")
+	
+		flipAllCards(cards)
 		
 	end
 }
