@@ -87,6 +87,33 @@ function flipAllCards(cards)
         }))
     end
 end
+
+function transformCards(cards, enhancement, edition, seal)
+    local i = 0
+    for _, playedCard in pairs(cards) do
+        i = i + 1
+        G.E_MANAGER:add_event(Event({
+            trigger = 'after',
+            delay = 0.0,
+            func = function()
+				if enhancement ~= nil then
+					playedCard:set_ability(enhancement)
+				end
+
+				if edition ~= nil then
+					playedCard:set_edition(edition)
+				end
+
+				if enhancement ~= nil then
+					playedCard:set_seal(seal)
+				end
+
+				return true
+                
+            end
+        }))
+    end
+end
 --thanks fox
 
 
@@ -439,7 +466,7 @@ SMODS.Tag{
 		label = "Iridescent Tag",
 		text = {
 			"Next base edition Joker",
-			"in shop is {C:blue}Iridescent{}",
+			"in shop is free and {C:blue}Iridescent{}",
 			
 		}
 	},
@@ -540,31 +567,70 @@ SMODS.Consumable {
             text = {
 				 "Converts entire hand into",
 				 "{C:dark_edition}Stone Cards{}",
-				 "then applies {C:blue}Iridescent{}",
-				 "to a random {C:money}Joker{}"
+				 "{C:green}#2# in #1#{} chance to",
+				 "apply {C:blue}Iridescent{} to ",
+				 "a random {C:money}Joker{}"
 				}
         },
     },
-    config = { irid = 3},
+    config = { irid = 3, extra = {odds = 2}},
 	loc_vars = function(self, info_queue, card)
-		return { vars = { card.ability.irid }}
+		return { vars = { self.config.extra.odds, (G.GAME.probabilities.normal or 1)}}
 	end,
 	can_use = function(self, card)
-        if G.STATE == G.STATES.SELECTING_HAND or G.STATE == G.STATES.TAROT_PACK or G.STATE == G.STATES.SPECTRAL_PACK then
-
+		if #G.hand.cards > 0 then
 			return true
 		end
 		return false
 	end,
 
     use = function(self, card, area, copier)
- 
+
+		local used_tarot = copier or card
 		local cards = G.hand.cards
+		--Flip cards
 		flipAllCards(cards)
+		--Make them stone
+		transformCards(cards, G.P_CENTERS.m_stone, nil, nil)
+		--Grab a Random Joker without an edition
+		local jokers_without_enhancement = {}
+
+		for _, joker in ipairs(G.jokers.cards) do
+			if not joker.edition then
+				table.insert(jokers_without_enhancement, joker)
+			end
+		end
+		local joker = pseudorandom_element(jokers_without_enhancement, pseudoseed('random'))
+		--Roll for initiative
+		if joker and math.random() < G.GAME.probabilities.normal / card.ability.extra.odds then
+			joker:juice_up(0.3, 0.5)
+			joker:set_edition('e_frover_iridescent',nil,true)
+			play_sound('frover_iridescent',1,1)
 		
-		sendInfoMessage("Flipped all cards, need to implement adding a special boon")
-	
+		else
+			G.E_MANAGER:add_event(Event({trigger = 'after', delay = 0.4, func = function()
+                attention_text({
+                    text = localize('k_nope_ex'),
+                    scale = 1.3, 
+                    hold = 1.4,
+                    major = used_tarot,
+                    backdrop_colour = G.C.SECONDARY_SET.Tarot,
+                    align = (G.STATE == G.STATES.TAROT_PACK or G.STATE == G.STATES.SPECTRAL_PACK) and 'tm' or 'cm',
+                    offset = {x = 0, y = (G.STATE == G.STATES.TAROT_PACK or G.STATE == G.STATES.SPECTRAL_PACK) and -0.2 or 0},
+                    silent = true
+                    })
+                    G.E_MANAGER:add_event(Event({trigger = 'after', delay = 0.06*G.SETTINGS.GAMESPEED, blockable = false, blocking = false, func = function()
+                        play_sound('tarot2', 0.76, 0.4);return true end}))
+                    play_sound('tarot2', 1, 0.4)
+                    used_tarot:juice_up(0.3, 0.5)
+            return true end }))
+
+
+		end
+
 		flipAllCards(cards)
+
+
 		
 	end
 }
