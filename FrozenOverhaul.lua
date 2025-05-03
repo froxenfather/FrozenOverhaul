@@ -47,6 +47,7 @@ SMODS.Atlas {
 	py = 95
 }
 
+--[[
 SMODS.Atlas {
 	-- Key for code to find it with
 	key = "FroverhaulLegendary",
@@ -68,7 +69,7 @@ SMODS.Atlas {
 	-- Height of each sprite in 1x size
 	py = 95
 }
-
+]]--  not yet!
 
 --functions
 
