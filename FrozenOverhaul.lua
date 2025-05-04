@@ -69,7 +69,7 @@ SMODS.Atlas {
 	-- Height of each sprite in 1x size
 	py = 95
 }
-]]--  not yet!
+]]--  not yeart!
 
 --functions
 
