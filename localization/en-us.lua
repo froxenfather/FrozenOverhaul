@@ -297,7 +297,7 @@ return {
                 },
             },
             bl_tooth={
-                name="Connor Kopel",
+                name="Your muscles are small",
                 text={
                     "Lose $1 per",
                     "card played",
@@ -403,7 +403,7 @@ return {
             m_mult={
                 name="Heavy Harold",
                 text={
-                    "{C:mult}+#1#{} Mult",
+                    "{C:mult}#1#{} Mult",
                 },
             },
             m_steel={
@@ -417,7 +417,7 @@ return {
             m_stone={
                 name="stone",
                 text={
-                    "{C:chips}+#1#{} Chips",
+                    "{C:chips}#1#{} Chips",
                     "no rank or suit",
                 },
             },
@@ -3760,7 +3760,7 @@ return {
             ph_improve_run="im gonna touch you!",
             ph_most_played="(most played hand)",
             ph_mr_bones="Saved by Mr. Boner",
-            ph_no_boss_active="no boss active",
+            ph_no_boss_active="Kill yourself.",
             ph_no_vouchers="No vouchers redeemed this run",
             ph_score_at_least="You gotta get at least",
             ph_score_cards_discarded="Cards Discarded",
