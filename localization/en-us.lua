@@ -421,13 +421,6 @@ return {
                     "no rank or suit",
                 },
             },
-            m_wild={
-                name="Wild Wilson",
-                text={
-                    "Can be used",
-                    "as any suit",
-                },
-            },
         },
         Joker={
             j_8_ball={

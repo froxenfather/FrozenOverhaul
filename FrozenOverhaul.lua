@@ -433,7 +433,7 @@ SMODS.Edition({ -- iridescent
 		xchips = 1.7,
 	},
 	in_shop = true,
-	weight = 5,
+	weight = 3,
 	extra_cost = 6,
 	-- disable_base_shader=true,
 	apply_to_float = false,
@@ -660,6 +660,48 @@ SMODS.Booster:take_ownership_by_kind("Standard", {
 		return {set = (pseudorandom(pseudoseed('stdset'..G.GAME.round_resets.ante)) > 0.5) and "Enhanced" or "Base", edition = _edition, seal = _seal, area = G.pack_cards, skip_materialize = true, soulable = true, key_append = "sta"}
 	end
 })
+
+
+SMODS.Enhancement:take_ownership("m_wild", {
+	loc_txt = {
+        ['en-us'] = {
+            name = 'Wild Card',
+            text = {
+				 "",
+				 "Can be scored as {C:dark_edition}any suit{}",
+				 "{C:green}#2# in #1# {}chance to {C:attention}Retrigger{}",
+				 "this card, and cannot be {C:red}Debuffed{}",
+				}
+        },
+    },
+	config = { retriggers = 1, extra = {odds = 2}},
+	loc_vars = function(self, info_queue, card)
+		return { vars = { self.config.extra.odds, (G.GAME.probabilities.normal or 1)}}
+	end,
+	calculate = function(self, card, context)
+		if
+			context.repetition
+			and pseudorandom("wild") < G.GAME.probabilities.normal / card.ability.extra.odds
+		then
+			return {
+				message = localize("k_again_ex"),
+				repetitions = card.ability.retriggers,
+				card = card,
+			}
+		end
+	end,
+})
+
+-- Prevent Wilds from being Debuffed. Credit: jmibo
+local set_debuff_ref = Card.set_debuff
+
+function Card:set_debuff(should_debuff)
+  if self.ability.name == 'Wild Card' then
+    set_debuff_ref(self, false)
+  else
+    set_debuff_ref(self, should_debuff)
+  end
+end
 
 -- TODO:
 -- Have people proofread, make sure my overly long way of writing is actually legible or cut down to make sure it's legible.
