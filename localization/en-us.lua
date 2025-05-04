@@ -414,13 +414,6 @@ return {
                     "stays in hand",
                 },
             },
-            m_stone={
-                name="stone",
-                text={
-                    "{C:chips}#1#{} Chips",
-                    "no rank or suit",
-                },
-            },
         },
         Joker={
             j_8_ball={

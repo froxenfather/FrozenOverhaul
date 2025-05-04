@@ -661,6 +661,7 @@ SMODS.Booster:take_ownership_by_kind("Standard", {
 	end
 })
 
+--Wild card rework
 
 SMODS.Enhancement:take_ownership("m_wild", {
 	loc_txt = {
@@ -696,12 +697,47 @@ SMODS.Enhancement:take_ownership("m_wild", {
 local set_debuff_ref = Card.set_debuff
 
 function Card:set_debuff(should_debuff)
-  if self.ability.name == 'Wild Card' then
+  if SMODS.has_enhancement(self, 'm_wild') then
     set_debuff_ref(self, false)
   else
     set_debuff_ref(self, should_debuff)
   end
 end
+
+-- Stone Card rework: Can be "smelted" into ceramic cards and also just give a default +75 chips now
+SMODS.Enhancement:take_ownership("m_stone", {
+	loc_txt = {
+        ['en-us'] = {
+            name = 'Stone Card',
+            text = {
+				 "",
+				 "{C:dark_edition}+#1#{} Chips",
+				 "No Suit or Rank",
+				 "{C:inactive}Fire might smelt these cards into something stonger...?{}",
+				}
+        },
+    },
+	config = { chips = 70},
+	loc_vars = function(self, info_queue, card)
+		return { vars = { self.config.chips}}
+	end,
+	always_scores = true,
+	no_rank = true,
+	calculate = function(self, card, context)
+		if context.main_scoring and context.cardarea == G.play then
+			return {
+				 chips = self.config.chips
+			}
+		end
+
+		if context.after and context.cardarea == G.play and hand_chips > G.GAME.blind.chips then
+			return {
+				message = "Smelted!",
+				card = card,
+			}
+		end
+	end,
+})
 
 -- TODO:
 -- Have people proofread, make sure my overly long way of writing is actually legible or cut down to make sure it's legible.
