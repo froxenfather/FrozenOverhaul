@@ -58,7 +58,7 @@ SMODS.Atlas {
 	-- Height of each sprite in 1x size
 	py = 95
 }
-
+]]--  not yeart!
 SMODS.Atlas {
 	-- Key for code to find it with
 	key = "FroverhaulEnhancement",
@@ -69,7 +69,7 @@ SMODS.Atlas {
 	-- Height of each sprite in 1x size
 	py = 95
 }
-]]--  not yeart!
+
 
 --functions
 
@@ -134,7 +134,8 @@ end
 SMODS.Back{
     name = "Insanity",
     key = "insane",
-    pos = {x = 4, y = 3},
+	atlas = 'FroverhaulEnhancement',
+    pos = {x = 1, y = 4},
     config = {random = true},
     loc_txt = {
         name = "Insanity",
@@ -223,7 +224,8 @@ SMODS.Back{
 SMODS.Back{
     name = "Frozen Deck",
     key = "frozendeck",
-    pos = {x = 4, y = 3},
+	atlas = 'FroverhaulEnhancement',
+    pos = {x = 5, y = 2},
     config = {random = true},
     loc_txt = {
         name = "Frozen Deck",
