@@ -142,10 +142,23 @@ SMODS.Back{
         text ={
             "Start with a Deck",
             "full of",
-            "{C:attention}Random{} cards"
+            "{C:dark_edition}COMPLETELY RANDOM{} cards",
+			"{X:mult,C:white}X15{} Blind Size",
+			"Increases by * {X:mult,C:white}X1.3{} Blind Size Each Ante"
         }
     },
+
+	calculate = function (self, back, context)
+		if context.end_of_round and not context.repetition and not context.individual and G.GAME.blind.boss then
+			G.GAME.starting_params.ante_scaling = G.GAME.starting_params.ante_scaling * 1.3
+		end
+	end,
+
     apply = function()
+
+		G.GAME.starting_params.ante_scaling = 15
+
+
         G.E_MANAGER:add_event(Event({
             func = function()
                 local trandom_m = {
@@ -231,7 +244,7 @@ SMODS.Back{
         name = "Frozen Deck",
         text ={
             "Start with an",
-            "{C:legendary}Iridescent{} Blueprint"
+            "{C:dark_edition}Iridescent{} Blueprint"
         }
     },
     
@@ -396,6 +409,7 @@ SMODS.Joker {
 		if context.joker_main then
 			return {
 				mult_mod = card.ability.extra.mult,
+				
 				message = localize { type = 'variable', key = 'a_mult', vars = { card.ability.extra.mult } }
 			}
 		end
