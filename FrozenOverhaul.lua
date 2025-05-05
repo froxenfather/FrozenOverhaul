@@ -326,7 +326,7 @@ SMODS.Joker {
 	end
 }
 
-
+--Marked to change name and photo. Remaking alec into a joker that gives you 2 skip tags.
 SMODS.Joker {
     key = 'alecpollard',
     loc_txt = {
