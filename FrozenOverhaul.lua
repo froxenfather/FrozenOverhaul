@@ -416,6 +416,7 @@ SMODS.Joker {
 	end,
 
 -- Steal dollar value from interest
+--im going to KILL myself i HATE interet and i HATE marth bro
 	calc_dollar_bonus = function(self, card)
 		local bonus =  (G.GAME.interest_amount * math.floor(G.GAME.dollars / 5))
 		bonus = math.min(bonus,((G.GAME.interest_cap * G.GAME.interest_amount) / 5))

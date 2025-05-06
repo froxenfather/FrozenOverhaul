@@ -2,7 +2,7 @@ return {
     descriptions={
         Back={
             b_abandoned={
-                name="Homeless",
+                name="Hoeless",
                 text={
                     "Start your run with",
                     "no {C:attention}Hoes{}",
@@ -16,21 +16,21 @@ return {
                 },
             },
             b_black={
-                name="Vantablack",
+                name="Black Jack",
                 text={
                     "{C:attention}+#1#{} Jorker slot",
                     "",
-                    "{C:blue}-#2#{} hand",
+                    "{C:blue}-#2#{} slam",
                     "every round",
                     "Harder than you think",
                 },
             },
             b_blue={
-                name="Sonic Deck",
+                name="New Blue",
                 text={
-                    "{C:blue}+#1#{} hand",
+                    "{C:blue}+#1#{} slam",
                     "every round",
-                    "Great when you need a {C:blue}Hand{}",
+                    "Great when you need a {C:blue}slam{}",
                 },
             },
             b_challenge={
@@ -47,7 +47,7 @@ return {
                 },
             },
             b_erratic={
-                name="Erotic Deck",
+                name="Erotic Dick",
                 text={
                     "I am {C:red}GENUINELY{} having a",
                     "{C:attention}CRASH out{} over here",
@@ -56,17 +56,17 @@ return {
             b_ghost={
                 name="Spooky Deck",
                 text={
-                    "{C:spectral}Spooky{} cards may",
-                    "appear in the shop,",
-                    "start with a {C:spectral,T:c_hex}Sex{} card",
+                    "{C:spectral}Spooky{} fards may",
+                    "appear in the slop,",
+                    "start with a {C:spectral,T:c_hex}Sex{} fard",
                 },
             },
             b_green={
                 name="Touch Grass",
                 text={
                     "At end of each Round:",
-                    "{C:money}$#1#{s:0.85} per remaining {C:blue}Hand",
-                    "{C:money}$#2#{s:0.85} per remaining {C:red}Discard",
+                    "{C:money}$#1#{s:0.85} per remaining {C:blue}slam",
+                    "{C:money}$#2#{s:0.85} per remaining {C:red}Disfard",
                     "Earn no {C:attention}Interest",
                     "Spend that shit like life depends on it",
                 },
@@ -93,7 +93,7 @@ return {
             b_painted={
                 name="Call me Picasso",
                 text={
-                    "{C:attention}+#1#{} hand size,",
+                    "{C:attention}+#1#{} slam size,",
                     "{C:red}#2#{} JoRker slot",
                 },
             },
@@ -102,20 +102,20 @@ return {
                 text={
                     "Balance {C:blue}Chips{} and",
                     "{C:red}Mult{} when calculating",
-                    "score for played hand",
+                    "score for played slam",
                     "{C:red}X#1#{} base Blind size",
                     "we hitting NANINF WITH THIS ONE",
                 },
             },
             b_red={
-                name="Fred Deck",
+                name="Red Fred",
                 text={
-                    "{C:red}+#1#{} discard",
+                    "{C:red}+#1#{} disfard",
                     "every round",
                 },
             },
             b_yellow={
-                name="Asian Deck",
+                name="Yellow Mellow",
                 text={
                     "Start with",
                     "extra {C:money}$#1#",
@@ -136,7 +136,7 @@ return {
                 name="Harm",
                 text={
                     "Decrease level of",
-                    "played poker hand",
+                    "played poker slam",
                 },
             },
             bl_big={
@@ -147,14 +147,14 @@ return {
             bl_club={
                 name="Club You",
                 text={
-                    "All Club cards",
+                    "All Club fards",
                     "are debuffed",
                 },
             },
             bl_eye={
                 name="I SEE YOU",
                 text={
-                    "No repeat hand",
+                    "No repeat slam",
                     "types this round",
                 },
             },
@@ -192,8 +192,8 @@ return {
             bl_fish={
                 name="Fish",
                 text={
-                    "Cards drawn face down",
-                    "after each hand played",
+                    "fards drawn face down",
+                    "after each slam played",
                 },
             },
             bl_flint={
@@ -206,55 +206,55 @@ return {
             bl_goad={
                 name="Goaded",
                 text={
-                    "All Spade cards",
+                    "All Spade fards",
                     "are debuffed",
                 },
             },
             bl_head={
                 name="Head",
                 text={
-                    "All Heart cards",
+                    "All Heart fards",
                     "are debuffed",
                 },
             },
             bl_hook={
                 name="Hooked on a Feelin",
                 text={
-                    "Discards 2 random",
-                    "cards per hand played",
+                    "Disfards 2 random",
+                    "fards per slam played",
                 },
             },
             bl_house={
                 name="Dr. House",
                 text={
-                    "First hand is",
+                    "First slam is",
                     "drawn face down",
                 },
             },
             bl_manacle={
                 name="The Testicle",
                 text={
-                    "-1 Hand Size",
+                    "-1 slam Size",
                 },
             },
             bl_mark={
                 name="Markiplier",
                 text={
-                    "All face cards are",
+                    "All face fards are",
                     "drawn face down",
                 },
             },
             bl_mouth={
                 name="The Looper",
                 text={
-                    "Play only 1 hand",
+                    "Play only 1 slam",
                     "type this round",
                 },
             },
             bl_needle={
                 name="Eye of the NEEDLE",
                 text={
-                    "Play only 1 hand",
+                    "Play only 1 slam",
                 },
             },
             bl_ox={
@@ -267,28 +267,28 @@ return {
             bl_pillar={
                 name="Hope you saw me coming",
                 text={
-                    "Cards played previously",
+                    "fards played previously",
                     "this Ante are debuffed",
                 },
             },
             bl_plant={
                 name="PLANT!!!!",
                 text={
-                    "All face cards",
+                    "All face fards",
                     "are debuffed",
                 },
             },
             bl_psychic={
                 name=":)",
                 text={
-                    "Must play 5 cards",
+                    "Must play 5 fards",
                 },
             },
             bl_serpent={
-                name="The Hand Store",
+                name="The slam Store",
                 text={
-                    "After Play or Discard,",
-                    "always draw 3 cards",
+                    "After Play or Disfard,",
+                    "always draw 3 fards",
                 },
             },
             bl_small={
@@ -300,7 +300,7 @@ return {
                 name="Your muscles are small",
                 text={
                     "Lose $1 per",
-                    "card played",
+                    "fard played",
                 },
             },
             bl_wall={
@@ -313,20 +313,20 @@ return {
                 name="The Drink",
                 text={
                     "Start with",
-                    "0 discards",
+                    "0 disfards",
                 },
             },
             bl_wheel={
                 name="The Wheel",
                 text={
-                    " in 7 cards get",
+                    " in 7 fards get",
                     "drawn face down",
                 },
             },
             bl_window={
                 name="Shiny!",
                 text={
-                    "All Diamond cards",
+                    "All Diamond fards",
                     "are debuffed",
                 },
             },
@@ -376,18 +376,18 @@ return {
                 },
             },
             m_glass={
-                name="Ass Card",
+                name="Ass fard",
                 text={
                     "{X:mult,C:white} X#1# {} Mult",
                     "{C:green}#2# in #3#{} chance to",
-                    "destroy card",
+                    "destroy fard",
                 },
             },
             m_gold={
                 name="Golden Greg",
                 text={
                     "{C:money}$#1#{} if this",
-                    "card is held in hand",
+                    "fard is held in slam",
                     "at end of round",
                 },
             },
@@ -410,8 +410,8 @@ return {
                 name="Steel Steven",
                 text={
                     "{X:mult,C:white} X#1# {} Mult",
-                    "while this card",
-                    "stays in hand",
+                    "while this fard",
+                    "stays in slam",
                 },
             },
         },
@@ -421,7 +421,7 @@ return {
                 text={
                     "{C:green}#1# in #2#{} chance for each",
                     "played {C:attention}8{} to create a",
-                    "{C:tarot}Tungus{} card when scored",
+                    "{C:tarot}Tungus{} fard when scored",
                     "{C:inactive}(Must have room)",
                 },
             },
@@ -429,7 +429,7 @@ return {
                 name="Picasso",
                 text={
                     "{C:mult}+#1#{} Mult for",
-                    "each {C:attention}Jorker{} card",
+                    "each {C:attention}Jorker{} fard",
                     "{C:inactive}(Currently {C:red}+#2#{C:inactive} Mult)",
                 },
             },
@@ -437,45 +437,45 @@ return {
                 name="Jumping to Conclusions",
                 text={
                     "{X:red,C:white} X#1# {} Mult on {C:attention}final",
-                    "{C:attention}hand{} of round",
+                    "{C:attention}slam{} of round",
                 },
                 unlock={
-                    "Play {C:attention,E:1}#1#{} hands",
+                    "Play {C:attention,E:1}#1#{} slams",
                     "{C:inactive}(#2#)",
                 },
             },
             j_ancient={
                 name="Old Man",
                 text={
-                    "Each played card with",
-                    "{V:1}#2#{} suit gives",
+                    "Each played fard with",
+                    "{V:1}#2#{} shit gives",
                     "{X:mult,C:white} X#1# {} Mult when scored,",
-                    "{s:0.8}suit changes at end of round",
+                    "{s:0.8}shit changes at end of round",
                 },
             },
             j_arrowhead={
                 name="Peak",
                 text={
-                    "Played cards with",
-                    "{C:spades}Spade{} suit give",
+                    "Played fards with",
+                    "{C:spades}Spade{} shit give",
                     "{C:chips}+#1#{} Chips when scored",
                 },
                 unlock={
                     "Have at least {E:1,C:attention}#1#",
-                    "cards with {E:1,C:attention}#2#",
-                    "suit in your deck",
+                    "fards with {E:1,C:attention}#2#",
+                    "shit in your dick",
                 },
             },
             j_astronomer={
                 name="Elon",
                 text={
-                    "All {C:planet}Planet{} cards and",
+                    "All {C:planet}Planet{} fards and",
                     "{C:planet}Celestial Packs{} in",
-                    "the shop are {C:attention}free",
+                    "the slop are {C:attention}free",
                 },
                 unlock={
                     "Discover every",
-                    "{E:1,C:planet}Planet{} card",
+                    "{E:1,C:planet}Planet{} fard",
                 },
             },
             j_banner={
@@ -483,14 +483,14 @@ return {
                 text={
                     "{C:chips}+#1#{} Chips for",
                     "each remaining",
-                    "{C:attention}discard",
+                    "{C:attention}disfard",
                 },
             },
             j_baron={
                 name="THE KING",
                 text={
                     "Each {C:attention}King{}",
-                    "held in hand",
+                    "held in slam",
                     "gives {X:mult,C:white} X#1# {} Mult",
                 },
             },
@@ -505,7 +505,7 @@ return {
                 name="The Black Beast",
                 text={
                     "{X:red,C:white} X#1# {} Mult if all",
-                    "cards held in hand",
+                    "fards held in slam",
                     "are {C:spades}#2#{} or {C:clubs}#3#{}",
                 },
             },
@@ -513,21 +513,21 @@ return {
                 name="Bludstone",
                 text={
                     "{C:green}#1# in #2#{} chance for",
-                    "played cards with",
-                    "{C:hearts}Heart{} suit to give",
+                    "played fards with",
+                    "{C:hearts}Heart{} shit to give",
                     "{X:mult,C:white} X#3# {} Mult when scored",
                 },
                 unlock={
                     "Have at least {E:1,C:attention}#1#",
-                    "cards with {E:1,C:attention}#2#",
-                    "suit in your deck",
+                    "fards with {E:1,C:attention}#2#",
+                    "shit in your dick",
                 },
             },
             j_blue_joker={
                 name="Blue Boy",
                 text={
                     "{C:chips}+#1#{} Chips for each",
-                    "remaining card in {C:attention}deck",
+                    "remaining fard in {C:attention}dick",
                     "{C:inactive}(Currently {C:chips}+#2#{C:inactive} Chips)",
                 },
             },
@@ -560,7 +560,7 @@ return {
                     "of leftmost {C:attention}Jerker",
                 },
                 unlock={
-                    "Discard a",
+                    "Disfard a",
                     "{E:1,C:attention}Royal Flush",
                 },
             },
@@ -576,27 +576,27 @@ return {
                 name="Bungler",
                 text={
                     "When {C:attention}Blind{} is selected,",
-                    "gain {C:blue}+#1#{} Hands and",
-                    "{C:attention}lose all discards",
+                    "gain {C:blue}+#1#{} slams and",
+                    "{C:attention}lose all disfards",
                 },
             },
             j_burnt={
                 name="This is Fine",
                 text={
                     "Upgrade the level of",
-                    "the first {C:attention}discarded",
-                    "poker hand each round",
+                    "the first {C:attention}disfarded",
+                    "poker slam each round",
                 },
                 unlock={
                     "Sell a total",
-                    "of {E:1,C:attention}#1#{} cards",
+                    "of {E:1,C:attention}#1#{} fards",
                     "{C:inactive}(#2#)",
                 },
             },
             j_business={
                 name="Jatrick Jateman",
                 text={
-                    "Played {C:attention}face{} cards have",
+                    "Played {C:attention}face{} fards have",
                     "a {C:green}#1# in #2#{} chance to",
                     "give {C:money}$2{} when scored",
                 },
@@ -605,7 +605,7 @@ return {
                 name="Cania",
                 text={
                     "This {C:legendary}Jiggler{} gains {X:mult,C:white} X#1# {} Mult",
-                    "when a {C:attention}face{} card",
+                    "when a {C:attention}face{} fard",
                     "is destroyed",
                     "{C:inactive}(Currently {X:mult,C:white} X#2# {C:inactive} Mult)",
                 },
@@ -617,37 +617,37 @@ return {
                 name="Campfire",
                 text={
                     "This Jorker gains {X:mult,C:white}X#1#{} Mult",
-                    "for each card {C:attention}sold{}, resets",
+                    "for each fard {C:attention}sold{}, resets",
                     "when {C:attention}Boss Blind{} is defeated",
                     "{C:inactive}(Currently {X:mult,C:white} X#2# {C:inactive} Mult)",
                 },
             },
             j_card_sharp={
-                name="Card Sharp",
+                name="Fard Sharp",
                 text={
                     "{X:mult,C:white} X#1# {} Mult if played",
-                    "{C:attention}poker hand{} has already",
+                    "{C:attention}poker slam{} has already",
                     "been played this round",
                 },
             },
             j_cartomancer={
                 name="Cartomancer",
                 text={
-                    "Create a {C:tarot}Tungus{} card",
+                    "Create a {C:tarot}Tungus{} fard",
                     "when {C:attention}Blind{} is selected",
                     "{C:inactive}(Must have room)",
                 },
                 unlock={
                     "Discover every",
-                    "{E:1,C:tarot}Tarot{} card",
+                    "{E:1,C:tarot}Tarot{} fard",
                 },
             },
             j_castle={
                 name="Fortnite",
                 text={
                     "This Jorker gains {C:chips}+#1#{} Chips",
-                    "per discarded {V:1}#2#{} card,",
-                    "suit changes every round",
+                    "per disfarded {V:1}#2#{} fard,",
+                    "shit changes every round",
                     "{C:inactive}(Currently {C:chips}+#3#{C:inactive} Chips)",
                 },
             },
@@ -656,7 +656,7 @@ return {
                 text={
                     "{X:mult,C:white} X#1# {} Mult",
                     "{C:green}#2# in #3#{} chance this",
-                    "card is destroyed",
+                    "fard is destroyed",
                     "at end of round",
                 },
             },
@@ -675,12 +675,12 @@ return {
                 text={
                     "When round begins,",
                     "add a random {C:attention}playing",
-                    "{C:attention}card{} with a random",
-                    "{C:attention}seal{} to your hand",
+                    "{C:attention}fard{} with a random",
+                    "{C:attention}seal{} to your slam",
                 },
                 unlock={
                     "Have a Gold",
-                    "playing card with",
+                    "playing fard with",
                     "a {C:attention,E:1}Gold Seal",
                 },
             },
@@ -688,7 +688,7 @@ return {
                 name="Reroll",
                 text={
                     "{C:attention}#1#{} free {C:green}Reroll",
-                    "per shop",
+                    "per slop",
                 },
             },
             j_chicot={
@@ -706,7 +706,7 @@ return {
                 name="Clever Cody",
                 text={
                     "{C:chips}+#1#{} Chips if played",
-                    "hand contains",
+                    "slam contains",
                     "a {C:attention}#2#",
                 },
             },
@@ -714,7 +714,7 @@ return {
                 name="P A R A D I SE",
                 text={
                     "Earn {C:money}$#1#{} for each",
-                    "{C:attention}9{} in your {C:attention}full deck",
+                    "{C:attention}9{} in your {C:attention}full dick",
                     "at end of round",
                     "{C:inactive}(Currently {C:money}$#2#{}{C:inactive})",
                 },
@@ -724,7 +724,7 @@ return {
                 text={
                     "This Jorker gains",
                     "{X:mult,C:white} X#1# {} Mult every time",
-                    "a {C:planet}Planet{} card is used",
+                    "a {C:planet}Planet{} fard is used",
                     "{C:inactive}(Currently {X:mult,C:white} X#2# {C:inactive} Mult)",
                 },
             },
@@ -732,7 +732,7 @@ return {
                 name="Crafty Camden",
                 text={
                     "{C:chips}+#1#{} Chips if played",
-                    "hand contains",
+                    "slam contains",
                     "a {C:attention}#2#",
                 },
             },
@@ -740,12 +740,12 @@ return {
                 name="Crazy Man",
                 text={
                     "{C:red}+#1#{} Mult if played",
-                    "hand contains",
+                    "slam contains",
                     "a {C:attention}#2#",
                 },
             },
             j_credit_card={
-                name="THEY TAKE AMEX",
+                name="Credit Fard",
                 text={
                     "Go up to",
                     "{C:red}-$#1#{} in debt",
@@ -754,8 +754,8 @@ return {
             j_delayed_grat={
                 name="Tick Tock...",
                 text={
-                    "Earn {C:money}$#1#{} per {C:attention}discard{} if",
-                    "no discards are used",
+                    "Earn {C:money}$#1#{} per {C:attention}disfard{} if",
+                    "no disfards are used",
                     "by end of the round",
                 },
             },
@@ -763,7 +763,7 @@ return {
                 name="Devious Devin",
                 text={
                     "{C:chips}+#1#{} Chips if played",
-                    "hand contains",
+                    "slam contains",
                     "a {C:attention}#2#",
                 },
             },
@@ -777,10 +777,10 @@ return {
             j_dna={
                 name="Duplicata",
                 text={
-                    "If {C:attention}first hand{} of round",
-                    "has only {C:attention}1{} card, add a",
-                    "permanent copy to deck",
-                    "and draw it to {C:attention}hand",
+                    "If {C:attention}first slam{} of round",
+                    "has only {C:attention}1{} fard, add a",
+                    "permanent copy to dick",
+                    "and draw it to {C:attention}slam",
                 },
             },
             j_drivers_license={
@@ -788,26 +788,26 @@ return {
                 text={
                     "{X:mult,C:white} X#1# {} Mult if you have",
                     "at least {C:attention}16{} Enhanced",
-                    "cards in your full deck",
+                    "fards in your full dick",
                     "{C:inactive}(Currently {C:attention}#2#{C:inactive})",
                 },
                 unlock={
-                    "Enhance {E:1,C:attention}#1#{} cards",
-                    "in your deck",
+                    "Enhance {E:1,C:attention}#1#{} fards",
+                    "in your dick",
                 },
             },
             j_droll={
                 name="Droll Dudly",
                 text={
                     "{C:red}+#1#{} Mult if played",
-                    "hand contains",
+                    "slam contains",
                     "a {C:attention}#2#",
                 },
             },
             j_drunkard={
                 name="Ryan Freese",
                 text={
-                    "{C:red}+#1#{} discard",
+                    "{C:red}+#1#{} disfard",
                     "each round",
                 },
             },
@@ -815,7 +815,7 @@ return {
                 name="The Donkler",
                 text={
                     "{X:mult,C:white} X#1# {} Mult if played",
-                    "hand contains",
+                    "slam contains",
                     "a {C:attention}#2#",
                 },
                 unlock={
@@ -828,8 +828,8 @@ return {
                 name="Sunset",
                 text={
                     "Retrigger all played",
-                    "cards in {C:attention}final",
-                    "{C:attention}hand{} of round",
+                    "fards in {C:attention}final",
+                    "{C:attention}slam{} of round",
                 },
             },
             j_egg={
@@ -844,16 +844,16 @@ return {
                 name="The Grand Canyon",
                 text={
                     "{C:red}+#1#{} Mult for each",
-                    "card below {C:attention}#3#{}",
-                    "in your full deck",
+                    "fard below {C:attention}#3#{}",
+                    "in your full dick",
                     "{C:inactive}(Currently {C:red}+#2#{C:inactive} Mult)",
                 },
             },
             j_even_steven={
                 name="Even Steven",
                 text={
-                    "Played cards with",
-                    "{C:attention}even{} rank give",
+                    "Played fards with",
+                    "{C:attention}even{} spank give",
                     "{C:mult}+#1#{} Mult when scored",
                     "{C:inactive}(10, 8, 6, 4, 2)",
                 },
@@ -862,8 +862,8 @@ return {
                 name="help",
                 text={
                     "Earn {C:money}$#1#{} if {C:attention}#2#{} or",
-                    "more {C:attention}face cards{}",
-                    "are discarded",
+                    "more {C:attention}face fards{}",
+                    "are disfarded",
                     "at the same time",
                 },
             },
@@ -871,7 +871,7 @@ return {
                 name="WITH FAMILY",
                 text={
                     "{X:mult,C:white} X#1# {} Mult if played",
-                    "hand contains",
+                    "slam contains",
                     "a {C:attention}#2#",
                 },
                 unlock={
@@ -892,7 +892,7 @@ return {
                 name="JJ",
                 text={
                     "This Jorker gains {C:mult}+#1#{} Mult",
-                    "per {C:attention}reroll{} in the shop",
+                    "per {C:attention}reroll{} in the slop",
                     "{C:inactive}(Currently {C:mult}+#2#{C:inactive} Mult)",
                 },
             },
@@ -900,9 +900,9 @@ return {
                 name="Pot",
                 text={
                     "{X:mult,C:white} X#1# {} Mult if poker",
-                    "hand contains a",
-                    "{C:diamonds}Diamond{} card, {C:clubs}Club{} card,",
-                    "{C:hearts}Heart{} card, and {C:spades}Spade{} card",
+                    "slam contains a",
+                    "{C:diamonds}Diamond{} fard, {C:clubs}Club{} fard,",
+                    "{C:hearts}Heart{} fard, and {C:spades}Spade{} fard",
                 },
                 unlock={
                     "Reach Ante",
@@ -913,7 +913,7 @@ return {
                 name="Fortune Frank",
                 text={
                     "{C:red}+#1#{} Mult per {C:purple}Tarot{}",
-                    "card used this run",
+                    "fard used this run",
                     "{C:inactive}(Currently {C:red}+#2#{C:inactive})",
                 },
             },
@@ -921,8 +921,8 @@ return {
                 name="Throw up the Set.",
                 text={
                     "All {C:attention}Flushes{} and",
-                    "{C:attention}Straights{} can be",
-                    "made with {C:attention}4{} cards",
+                    "{C:attention}Greats{} can be",
+                    "made with {C:attention}4{} fards",
                 },
             },
             j_gift={
@@ -930,7 +930,7 @@ return {
                 text={
                     "Add {C:money}$#1#{} of {C:attention}sell value",
                     "to every {C:attention}Jorker{} and",
-                    "{C:attention}Consumable{} card at",
+                    "{C:attention}Consumable{} fard at",
                     "end of round",
                 },
             },
@@ -938,21 +938,21 @@ return {
                 name="Glass Jorker",
                 text={
                     "This Jerker gains {X:mult,C:white} X#1# {} Mult",
-                    "for every {C:attention}Glass Card",
+                    "for every {C:attention}Glass fard",
                     "that is destroyed",
                     "{C:inactive}(Currently {X:mult,C:white} X#2# {C:inactive} Mult)",
                 },
                 unlock={
                     "Have at least {E:1,C:attention}#1#",
                     "{E:1,C:attention}#2#s{} in",
-                    "your deck",
+                    "your dick",
                 },
             },
             j_gluttenous_joker={
                 name="Gluttonous Gevin",
                 text={
-                    "Played cards with",
-                    "{C:clubs}#2#{} suit give",
+                    "Played fards with",
+                    "{C:clubs}#2#{} shit give",
                     "{C:mult}+#1#{} Mult when scored",
                 },
             },
@@ -966,16 +966,16 @@ return {
             j_greedy_joker={
                 name="Greedy Garfield",
                 text={
-                    "Played cards with",
-                    "{C:diamonds}#2#{} suit give",
+                    "Played fards with",
+                    "{C:diamonds}#2#{} shit give",
                     "{C:mult}+#1#{} Mult when scored",
                 },
             },
             j_green_joker={
                 name="Greenbo",
                 text={
-                    "{C:mult}+#1#{} Mult per hand played",
-                    "{C:mult}-#2#{} Mult per discard",
+                    "{C:mult}+#1#{} Mult per slam played",
+                    "{C:mult}-#2#{} Mult per disfard",
                     "{C:inactive}(Currently {C:mult}+#3#{C:inactive} Mult)",
                 },
             },
@@ -984,7 +984,7 @@ return {
                 text={
                     "{C:mult}+#1#{} Mult",
                     "{C:green}#2# in #3#{} chance this",
-                    "card is destroyed",
+                    "fard is destroyed",
                     "at end of round",
                 },
             },
@@ -1000,15 +1000,15 @@ return {
                 name="5'6",
                 text={
                     "{C:red}+#1#{} Mult if played",
-                    "hand contains",
-                    "{C:attention}#2#{} or fewer cards",
+                    "slam contains",
+                    "{C:attention}#2#{} or fewer fards",
                 },
             },
             j_hallucination={
                 name="Dreamer",
                 text={
                     "{C:green}#1# in #2#{} chance to create",
-                    "a {C:tarot}Tungert{} card when any",
+                    "a {C:tarot}Tungert{} fard when any",
                     "{C:attention}Booster Pack{} is opened",
                     "{C:inactive}(Must have room)",
                 },
@@ -1017,7 +1017,7 @@ return {
                 name="Gigachad",
                 text={
                     "Retrigger {C:attention}first{} played",
-                    "card used in scoring",
+                    "fard used in scoring",
                     "{C:attention}#1#{} additional times",
                 },
                 unlock={
@@ -1028,7 +1028,7 @@ return {
             j_hiker={
                 name="Take a Hike",
                 text={
-                    "Every played {C:attention}card{}",
+                    "Every played {C:attention}fard{}",
                     "permanently gains",
                     "{C:chips}+#1#{} Chips when scored",
                 },
@@ -1038,11 +1038,11 @@ return {
                 text={
                     "This Jorker gains {X:mult,C:white} X#1# {} Mult",
                     "for every {C:attention}Jack{}",
-                    "discarded this round",
+                    "disfarded this round",
                     "{C:inactive}(Currently {X:mult,C:white} X#2# {C:inactive} Mult)",
                 },
                 unlock={
-                    "Discard {E:1,C:attention}5",
+                    "Disfard {E:1,C:attention}5",
                     "{E:1,C:attention}Jacks{} at the",
                     "same time",
                 },
@@ -1051,8 +1051,8 @@ return {
                 name="Hologramps",
                 text={
                     "This Johker gains {X:mult,C:white} X#1# {} Mult",
-                    "every time a {C:attention}playing card{}",
-                    "is added to your deck",
+                    "every time a {C:attention}playing fard{}",
+                    "is added to your dick",
                     "{C:inactive}(Currently {X:mult,C:white} X#2# {C:inactive} Mult)",
                 },
             },
@@ -1061,7 +1061,7 @@ return {
                 text={
                     "{C:chips}+#1#{} Chips",
                     "{C:chips}-#2#{} Chips for",
-                    "every hand played",
+                    "every slam played",
                 },
             },
             j_idol={
@@ -1070,10 +1070,10 @@ return {
                     "Each played {C:attention}#2#",
                     "of {V:1}#3#{} gives",
                     "{X:mult,C:white} X#1# {} Mult when scored",
-                    "{s:0.8}Card changes every round",
+                    "{s:0.8}fard changes every round",
                 },
                 unlock={
-                    "In one hand,",
+                    "In one slam,",
                     "earn at least",
                     "{E:1,C:attention}#1#{} chips",
                 },
@@ -1082,7 +1082,7 @@ return {
                 name="Invincible Jerker",
                 text={
                     "After {C:attention}#1#{} rounds,",
-                    "sell this card to",
+                    "sell this fard to",
                     "{C:attention}Duplicate{} a random Jorker",
                     "{C:inactive}(Currently {C:attention}#2#{C:inactive}/#1#)",
                 },
@@ -1102,28 +1102,28 @@ return {
                 name="Jolly Jorker",
                 text={
                     "{C:red}+#1#{} Mult if played",
-                    "hand contains",
+                    "slam contains",
                     "a {C:attention}#2#",
                 },
             },
             j_juggler={
                 name="Jelker",
                 text={
-                    "{C:attention}+#1#{} hand size",
+                    "{C:attention}+#1#{} slam size",
                 },
             },
             j_loyalty_card={
                 name="Punch Pass",
                 text={
                     "{X:red,C:white} X#1# {} Mult every",
-                    "{C:attention}#2#{} hands played",
+                    "{C:attention}#2#{} slams played",
                     "{C:inactive}#3#",
                 },
             },
             j_luchador={
                 name="Sumo",
                 text={
-                    "Sell this card to",
+                    "Sell this fard to",
                     "disable the current",
                     "{C:attention}Boss Blind{}",
                 },
@@ -1132,7 +1132,7 @@ return {
                 name="Chonkler",
                 text={
                     "This Jorker gains {X:mult,C:white} X#1# {} Mult",
-                    "every time a {C:attention}Lucky{} card",
+                    "every time a {C:attention}Lucky{} fard",
                     "{C:green}successfully{} triggers",
                     "{C:inactive}(Currently {X:mult,C:white} X#2# {C:inactive} Mult)",
                 },
@@ -1140,8 +1140,8 @@ return {
             j_lusty_joker={
                 name="Lusty Luke",
                 text={
-                    "Played cards with",
-                    "{C:hearts}#2#{} suit give",
+                    "Played fards with",
+                    "{C:hearts}#2#{} shit give",
                     "{C:mult}+#1#{} Mult when scored",
                 },
             },
@@ -1149,7 +1149,7 @@ return {
                 name="Mad Mac",
                 text={
                     "{C:red}+#1#{} Mult if played",
-                    "hand contains",
+                    "slam contains",
                     "a {C:attention}#2#",
                 },
             },
@@ -1163,15 +1163,15 @@ return {
                 name="Voting Fraud",
                 text={
                     "Earn {C:money}$#1#{} for each",
-                    "discarded {C:attention}#2#{}, rank",
+                    "disfarded {C:attention}#2#{}, spank",
                     "changes every round",
                 },
             },
             j_marble={
                 name="Mrble Jorker",
                 text={
-                    "Adds one {C:attention}Stone{} card",
-                    "to deck when",
+                    "Adds one {C:attention}Stone{} fard",
+                    "to dick when",
                     "{C:attention}Blind{} is selected",
                 },
             },
@@ -1179,21 +1179,21 @@ return {
                 name="Red Cape Guy",
                 text={
                     "Earn {C:money}$#1#{} if played",
-                    "hand triggers the",
+                    "slam triggers the",
                     "{C:attention}Boss Blind{} ability",
                 },
                 unlock={
                     "Defeat a Boss Blind",
-                    "in {E:1,C:attention}1 hand{} without",
-                    "using any discards",
+                    "in {E:1,C:attention}1 slam{} without",
+                    "using any disfards",
                 },
             },
             j_merry_andy={
-                name="Discardin Daniel",
+                name="Disfardin Daniel",
                 text={
-                    "{C:red}+#1#{} discards",
+                    "{C:red}+#1#{} disfards",
                     "each round,",
-                    "{C:red}#2#{} hand size",
+                    "{C:red}#2#{} slam size",
                 },
                 unlock={
                     "Win a run in {E:1,C:attention}#1#",
@@ -1203,8 +1203,8 @@ return {
             j_midas_mask={
                 name="King of Mid.",
                 text={
-                    "All played {C:attention}face{} cards",
-                    "become {C:attention}Gold{} cards",
+                    "All played {C:attention}face{} fards",
+                    "become {C:attention}Gold{} fards",
                     "when scored",
                 },
             },
@@ -1212,8 +1212,8 @@ return {
                 name="Average Italian",
                 text={
                     "Retrigger all",
-                    "card {C:attention}held in",
-                    "{C:attention}hand{} abilities",
+                    "fard {C:attention}held in",
+                    "{C:attention}slam{} abilities",
                 },
             },
             j_misprint={
@@ -1240,7 +1240,7 @@ return {
                 name="top o da hill",
                 text={
                     "{C:mult}+#1#{} Mult when",
-                    "{C:attention}#2#{} discards",
+                    "{C:attention}#2#{} disfards",
                     "remaining",
                 },
             },
@@ -1248,17 +1248,17 @@ return {
                 name="Obelisk",
                 text={
                     "This Jorker gains {X:mult,C:white} X#1# {} Mult",
-                    "per {C:attention}consecutive{} hand played",
+                    "per {C:attention}consecutive{} slam played",
                     "without playing your",
-                    "most played {C:attention}poker hand",
+                    "most played {C:attention}poker slam",
                     "{C:inactive}(Currently {X:mult,C:white} X#2# {C:inactive} Mult)",
                 },
             },
             j_odd_todd={
                 name="Odd Todd",
                 text={
-                    "Played cards with",
-                    "{C:attention}odd{} rank give",
+                    "Played fards with",
+                    "{C:attention}odd{} spank give",
                     "{C:chips}+#1#{} Chips when scored",
                     "{C:inactive}(A, 9, 7, 5, 3)",
                 },
@@ -1266,14 +1266,14 @@ return {
             j_onyx_agate={
                 name="Obsidian",
                 text={
-                    "Played cards with",
-                    "{C:clubs}Club{} suit give",
+                    "Played fards with",
+                    "{C:clubs}Club{} shit give",
                     "{C:mult}+#1#{} Mult when scored",
                 },
                 unlock={
                     "Have at least {E:1,C:attention}#1#",
-                    "cards with {E:1,C:attention}#2#",
-                    "suit in your deck",
+                    "fards with {E:1,C:attention}#2#",
+                    "shit in your dick",
                 },
             },
             j_oops={
@@ -1284,7 +1284,7 @@ return {
                     "{C:inactive}(ex: {C:green}1 in 3{C:inactive} -> {C:green}2 in 3{C:inactive})",
                 },
                 unlock={
-                    "In one hand,",
+                    "In one slam,",
                     "earn at least",
                     "{E:1,C:attention}#1#{} chips",
                 },
@@ -1293,7 +1293,7 @@ return {
                 name="Order up!",
                 text={
                     "{X:mult,C:white} X#1# {} Mult if played",
-                    "hand contains",
+                    "slam contains",
                     "a {C:attention}#2#",
                 },
                 unlock={
@@ -1305,9 +1305,9 @@ return {
             j_pareidolia={
                 name=":)",
                 text={
-                    "All cards are",
+                    "All fards are",
                     "considered",
-                    "{C:attention}face{} cards",
+                    "{C:attention}face{} fards",
                 },
             },
             j_perkeo={
@@ -1315,7 +1315,7 @@ return {
                 text={
                     "this {C:legendary}Chick{} creates a {C:dark_edition}Negative{} copy of",
                     "{C:attention}1{} random {C:attention}cumsumable{}",
-                    "card in your possession",
+                    "fard in your possession",
                     "at the end of the {C:attention}slop",
                 },
                 unlock={
@@ -1326,7 +1326,7 @@ return {
                 name="Joe",
                 text={
                     "First played {C:attention}face",
-                    "card gives {X:mult,C:white} X#1# {} Mult",
+                    "fard gives {X:mult,C:white} X#1# {} Mult",
                     "when scored",
                 },
             },
@@ -1339,11 +1339,11 @@ return {
                 },
             },
             j_raised_fist={
-                name="BLM",
+                name="Raised Fish",
                 text={
-                    "Adds {C:attention}double{} the rank",
-                    "of {C:attention}lowest{} ranked card",
-                    "held in hand to Mult",
+                    "Adds {C:attention}double{} the spank",
+                    "of {C:attention}lowest{} spanked fard",
+                    "held in slam to Mult",
                 },
             },
             j_ramen={
@@ -1351,7 +1351,7 @@ return {
                 text={
                     "{X:mult,C:white} X#1# {} Mult,",
                     "loses {X:mult,C:white} X#2# {} Mult",
-                    "per {C:attention}card{} discarded",
+                    "per {C:attention}fard{} disfarded",
                 },
             },
             j_red_card={
@@ -1366,8 +1366,8 @@ return {
             j_reserved_parking={
                 name="Reserved For Ryan",
                 text={
-                    "Each {C:attention}face{} card",
-                    "held in hand has",
+                    "Each {C:attention}face{} fard",
+                    "held in slam has",
                     "a {C:green}#2# in #3#{} chance",
                     "to give {C:money}$#1#{}",
                 },
@@ -1376,9 +1376,9 @@ return {
                 name="Ride the Bus",
                 text={
                     "This Joyker gains {C:mult}+#1#{} Mult",
-                    "per {C:attention}consecutive{} hand",
+                    "per {C:attention}consecutive{} slam",
                     "played without a",
-                    "scoring {C:attention}face{} card",
+                    "scoring {C:attention}face{} fard",
                     "{C:inactive}(Currently {C:mult}+#2#{C:inactive} Mult)",
                 },
             },
@@ -1394,7 +1394,7 @@ return {
                 name="Samuel",
                 text={
                     "{C:attention}Jorker{}, {C:tarot}Tunger{}, {C:planet}planet.{},",
-                    "and {C:spectral}Spectral{} cards may",
+                    "and {C:spectral}Spectral{} fards may",
                     "appear multiple times",
                 },
                 unlock={
@@ -1413,22 +1413,22 @@ return {
             j_rough_gem={
                 name="Gemerald",
                 text={
-                    "Played cards with",
-                    "{C:diamonds}Diamond{} suit earn",
+                    "Played fards with",
+                    "{C:diamonds}Diamond{} shit earn",
                     "{C:money}$#1#{} when scored",
                 },
                 unlock={
                     "Have at least {E:1,C:attention}#1#",
-                    "cards with {E:1,C:attention}#2#",
-                    "suit in your deck",
+                    "fards with {E:1,C:attention}#2#",
+                    "shit in your dick",
                 },
             },
             j_runner={
                 name="Marathon Jorker",
                 text={
                     "Gains {C:chips}+#2#{} Chips",
-                    "if played hand",
-                    "contains a {C:attention}Straight{}",
+                    "if played slam",
+                    "contains a {C:attention}Great{}",
                     "{C:inactive}(Currently {C:chips}+#1#{C:inactive} Chips)",
                 },
             },
@@ -1437,7 +1437,7 @@ return {
                 text={
                     "Earn {C:money}$#1#{} at end of",
                     "round per unique {C:planet}Planet",
-                    "card used this run",
+                    "fard used this run",
                     "{C:inactive}(Currently {C:money}$#2#{C:inactive})",
                 },
                 unlock={
@@ -1448,7 +1448,7 @@ return {
             j_scary_face={
                 name="Spooky boy",
                 text={
-                    "Played {C:attention}face{} cards",
+                    "Played {C:attention}face{} fards",
                     "give {C:chips}+#1#{} Chips",
                     "when scored",
                 },
@@ -1465,9 +1465,9 @@ return {
             j_seance={
                 name="Séance",
                 text={
-                    "If {C:attention}poker hand{} is a",
+                    "If {C:attention}poker slam{} is a",
                     "{C:attention}#1#{}, create a",
-                    "random {C:spectral}Spectral{} card",
+                    "random {C:spectral}Spectral{} fard",
                     "{C:inactive}(Must have room)",
                 },
             },
@@ -1475,12 +1475,12 @@ return {
                 name="Seeing Double",
                 text={
                     "{X:mult,C:white} X#1# {} Mult if played",
-                    "hand has a scoring",
-                    "{C:clubs}Club{} card and a scoring",
-                    "card of any other {C:attention}suit",
+                    "slam has a scoring",
+                    "{C:clubs}Club{} fard and a scoring",
+                    "fard of any other {C:attention}shit",
                 },
                 unlock={
-                    "Play a hand",
+                    "Play a slam",
                     "that contains",
                     "{E:1,C:attention}#1#",
                 },
@@ -1489,37 +1489,37 @@ return {
                 name="The Juicebox",
                 text={
                     "Retrigger all",
-                    "cards played for",
-                    "the next {C:attention}#1#{} hands",
+                    "fards played for",
+                    "the next {C:attention}#1#{} slams",
                 },
             },
             j_shoot_the_moon={
                 name="THE QUEEN",
                 text={
                     "Each {C:attention}Queen{}",
-                    "held in hand",
+                    "held in slam",
                     "gives {C:mult}+#1#{} Mult",
                 },
                 unlock={
                     "Play every {E:1,C:attention}Heart",
-                    "in your deck in",
+                    "in your dick in",
                     "a single round",
                 },
             },
             j_shortcut={
                 name="Backalley",
                 text={
-                    "Allows {C:attention}Straights{} to be",
-                    "made with gaps of {C:attention}1 rank",
+                    "Allows {C:attention}Greats{} to be",
+                    "made with gaps of {C:attention}1 spank",
                     "{C:inactive}(ex: {C:attention}10 8 6 5 3{C:inactive})",
                 },
             },
             j_sixth_sense={
                 name="Sensual Steve",
                 text={
-                    "If {C:attention}first hand{} of round is",
+                    "If {C:attention}first slam{} of round is",
                     "a single {C:attention}6{}, destroy it and",
-                    "create a {C:spectral}Spectral{} card",
+                    "create a {C:spectral}Spectral{} fard",
                     "{C:inactive}(Must have room)",
                 },
             },
@@ -1527,7 +1527,7 @@ return {
                 name="Sly Steven",
                 text={
                     "{C:chips}+#1#{} Chips if played",
-                    "hand contains",
+                    "slam contains",
                     "a {C:attention}#2#",
                 },
             },
@@ -1535,20 +1535,20 @@ return {
                 name="Smaed Jokr",
                 text={
                     "{C:hearts}Hearts{} and {C:diamonds}Diamonds",
-                    "count as the same suit,",
+                    "count as the same shit,",
                     "{C:spades}Spades{} and {C:clubs}Clubs",
-                    "count as the same suit",
+                    "count as the same shit",
                 },
                 unlock={
                     "Have at least {C:attention}#1#",
                     "{E:1,C:attention}#2#{} in",
-                    "your deck",
+                    "your dick",
                 },
             },
             j_smiley={
                 name=":D",
                 text={
-                    "Played {C:attention}face{} cards",
+                    "Played {C:attention}face{} fards",
                     "give {C:mult}+#1#{} Mult",
                     "when scored",
                 },
@@ -1557,11 +1557,11 @@ return {
                 name="Cock my Ballskin",
                 text={
                     "Retrigger all",
-                    "played {C:attention}face{} cards",
+                    "played {C:attention}face{} fards",
                 },
                 unlock={
                     "Play a total of",
-                    "{C:attention,E:1}#1#{} face cards",
+                    "{C:attention,E:1}#1#{} face fards",
                     "{C:inactive}(#2#)",
                 },
             },
@@ -1570,13 +1570,13 @@ return {
                 text={
                     "{C:green}#1# in #2#{} chance to",
                     "upgrade level of",
-                    "played {C:attention}poker hand{}",
+                    "played {C:attention}poker slam{}",
                 },
             },
             j_splash={
                 name="Splat",
                 text={
-                    "Every {C:attention}played card",
+                    "Every {C:attention}played fard",
                     "counts in scoring",
                 },
             },
@@ -1584,8 +1584,8 @@ return {
                 name="Four Sider Jorker",
                 text={
                     "This Jorker gains {C:chips}+#2#{} Chips",
-                    "if played hand has",
-                    "exactly {C:attention}4{} cards",
+                    "if played slam has",
+                    "exactly {C:attention}4{} fards",
                     "{C:inactive}(Currently {C:chips}#1#{C:inactive} Chips)",
                 },
             },
@@ -1593,8 +1593,8 @@ return {
                 name="Steel Jorker",
                 text={
                     "Gives {X:mult,C:white} X#1# {} Mult",
-                    "for each {C:attention}Steel Card",
-                    "in your {C:attention}full deck",
+                    "for each {C:attention}Steel fard",
+                    "in your {C:attention}full dick",
                     "{C:inactive}(Currently {X:mult,C:white} X#2# {C:inactive} Mult)",
                 },
             },
@@ -1611,8 +1611,8 @@ return {
                 name="Dry Jorker",
                 text={
                     "Gives {C:chips}+#1#{} Chips for",
-                    "each {C:attention}Stone Card",
-                    "in your {C:attention}full deck",
+                    "each {C:attention}Stone fard",
+                    "in your {C:attention}full dick",
                     "{C:inactive}(Currently {C:chips}+#2#{C:inactive} Chips)",
                 },
             },
@@ -1620,10 +1620,10 @@ return {
                 name="RED BULL",
                 text={
                     "{C:chips}+#1#{} Chips,",
-                    "{C:attention}-#2#{} hand size",
+                    "{C:attention}-#2#{} slam size",
                 },
                 unlock={
-                    "In one hand,",
+                    "In one slam,",
                     "earn at least",
                     "{E:1,C:attention}#1#{} chips",
                 },
@@ -1632,16 +1632,16 @@ return {
                 name="Interstellar",
                 text={
                     "Adds the number of times",
-                    "{C:attention}poker hand{} has been",
+                    "{C:attention}poker slam{} has been",
                     "played this run to Mult",
                 },
             },
             j_superposition={
                 name="Proton",
                 text={
-                    "Create a {C:tarot}Tarot{} card if",
-                    "poker hand contains an",
-                    "{C:attention}Ace{} and a {C:attention}Straight{}",
+                    "Create a {C:tarot}Tarot{} fard if",
+                    "poker slam contains an",
+                    "{C:attention}Ace{} and a {C:attention}Great{}",
                     "{C:inactive}(Must have room)",
                 },
             },
@@ -1655,7 +1655,7 @@ return {
                 },
                 unlock={
                     "Sell a total of",
-                    "{C:attention,E:1}#1#{} Jorker cards",
+                    "{C:attention,E:1}#1#{} Jorker fards",
                     "{C:inactive}(#2#)",
                 },
             },
@@ -1674,13 +1674,13 @@ return {
             j_ticket={
                 name="Golden Tickey",
                 text={
-                    "Played {C:attention}Gold{} cards",
+                    "Played {C:attention}Gold{} fards",
                     "earn {C:money}$#1#{} when scored",
                 },
                 unlock={
-                    "Play a 5 card hand",
+                    "Play a 5 fard slam",
                     "that contains only",
-                    "{C:attention,E:1}Gold{} cards",
+                    "{C:attention,E:1}Gold{} fards",
                 },
             },
             j_to_the_moon={
@@ -1694,17 +1694,17 @@ return {
             j_todo_list={
                 name="Chores",
                 text={
-                    "Earn {C:money}$#1#{} if {C:attention}poker hand{}",
+                    "Earn {C:money}$#1#{} if {C:attention}poker slam{}",
                     "is a {C:attention}#2#{},",
-                    "poker hand changes",
+                    "poker slam changes",
                     "at end of round",
                 },
             },
             j_trading={
                 name="Pokemon",
                 text={
-                    "If {C:attention}first discard{} of round",
-                    "has only {C:attention}1{} card, destroy",
+                    "If {C:attention}first disfard{} of round",
+                    "has only {C:attention}1{} fard, destroy",
                     "it and earn {C:money}$#1#",
                 },
             },
@@ -1712,7 +1712,7 @@ return {
                 name="Tribunal",
                 text={
                     "{X:mult,C:white} X#1# {} Mult if played",
-                    "hand contains",
+                    "slam contains",
                     "a {C:attention}#2#",
                 },
                 unlock={
@@ -1736,7 +1736,7 @@ return {
                 name="3 Muskateers",
                 text={
                     "{X:mult,C:white} X#1# {} Mult if played",
-                    "hand contains",
+                    "slam contains",
                     "a {C:attention}#2#",
                 },
                 unlock={
@@ -1748,20 +1748,20 @@ return {
             j_troubadour={
                 name="Trouble Doer",
                 text={
-                    "{C:attention}+#1#{} hand size,",
-                    "{C:blue}-#2#{} hand each round",
+                    "{C:attention}+#1#{} slam size,",
+                    "{C:blue}-#2#{} slam each round",
                 },
                 unlock={
                     "Win {C:attention,E:1}#1#{} consecutive",
                     "rounds by playing",
-                    "only 1 hand",
+                    "only 1 slam",
                 },
             },
             j_trousers={
                 name="pants",
                 text={
                     "These pants gain {C:mult}+#1#{} Mult",
-                    "if played hand contains",
+                    "if played slam contains",
                     "a {C:attention}#2#",
                     "{C:inactive}(Currently {C:red}+#3#{C:inactive} Mult)",
                 },
@@ -1769,7 +1769,7 @@ return {
             j_turtle_bean={
                 name="Gock",
                 text={
-                    "{C:attention}+#1#{} hand size,",
+                    "{C:attention}+#1#{} slam size,",
                     "reduces by",
                     "{C:red}#2#{} every round",
                 },
@@ -1777,8 +1777,8 @@ return {
             j_vagabond={
                 name="Homeless Emperor",
                 text={
-                    "Create a {C:purple}Tarot{} card",
-                    "if hand is played",
+                    "Create a {C:purple}Tarot{} fard",
+                    "if slam is played",
                     "with {C:money}$#1#{} or less",
                 },
             },
@@ -1786,8 +1786,8 @@ return {
                 name="Sucky Sucky",
                 text={
                     "This fucker gains {X:mult,C:white} X#1# {} Mult",
-                    "per scoring {C:attention}Enhanced card{} played,",
-                    "removes card {C:attention}Enhancement",
+                    "per scoring {C:attention}Enhanced fard{} played,",
+                    "removes fard {C:attention}Enhancement",
                     "{C:inactive}(Currently {X:mult,C:white} X#2# {C:inactive} Mult)",
                 },
             },
@@ -1816,15 +1816,15 @@ return {
                 name="Wily Wonky",
                 text={
                     "{C:chips}+#1#{} Chips if played",
-                    "hand contains",
+                    "slam contains",
                     "a {C:attention}#2#",
                 },
             },
             j_wrathful_joker={
                 name="Wrathful Wilson",
                 text={
-                    "Played cards with",
-                    "{C:spades}#2#{} suit give",
+                    "Played fards with",
+                    "{C:spades}#2#{} shit give",
                     "{C:mult}+#1#{} Mult when scored",
                 },
             },
@@ -1833,7 +1833,7 @@ return {
                 text={
                     "This {C:legendary}Hoe{} gains",
                     "{X:mult,C:white} X#1# {} Mult every {C:attention}#2#{C:inactive} [#3#]{}",
-                    "cards discarded",
+                    "fards disfarded",
                     "{C:inactive}(Currently {X:mult,C:white} X#4# {C:inactive} Mult)",
                 },
                 unlock={
@@ -1844,7 +1844,7 @@ return {
                 name="Zany Zach",
                 text={
                     "{C:red}+#1#{} Mult if played",
-                    "hand contains",
+                    "slam contains",
                     "a {C:attention}#2#",
                 },
             },
@@ -1861,9 +1861,9 @@ return {
             blue_seal={
                 name="Planet Maker",
                 text={
-                    "Creates the {C:planet}Planet{} card",
-                    "for final played {C:attention}poker hand{}",
-                    "of round if {C:attention}held{} in hand",
+                    "Creates the {C:planet}Planet{} fard",
+                    "for final played {C:attention}poker slam{}",
+                    "of round if {C:attention}held{} in slam",
                     "{C:inactive}(Must have room)",
                 },
             },
@@ -1889,7 +1889,7 @@ return {
                 name="Locked",
                 text={
                     "Win a run with at least",
-                    "#1# different decks to unlock",
+                    "#1# different dicks to unlock",
                     "Challenge mode",
                     "{C:attention,s:2}#2#/#1#",
                 },
@@ -1918,7 +1918,7 @@ return {
                 name="Locked",
                 text={
                     "Win a run with any",
-                    "deck on at least",
+                    "dick on at least",
                     "{V:1}#1#{} difficulty",
                 },
             },
@@ -1956,7 +1956,7 @@ return {
                 name="Gold Sticky",
                 text={
                     "Earn {C:money}$3{} when this",
-                    "card is played",
+                    "fard is played",
                     "and scores",
                 },
             },
@@ -1980,7 +1980,7 @@ return {
                 name="Locked",
                 text={
                     "Find this Jorker",
-                    "from the {C:spectral}Soul{} card",
+                    "from the {C:spectral}Soul{} fard",
                 },
             },
             locked={
@@ -2000,7 +2000,7 @@ return {
                 name="Jumbo Arcana Pack",
                 text={
                     "Choose {C:attention}#1#{} of up to",
-                    "{C:attention}#2#{C:tarot} Tarot{} cards to",
+                    "{C:attention}#2#{C:tarot} Tarot{} fards to",
                     "be used immediately",
                 },
             },
@@ -2008,7 +2008,7 @@ return {
                 name="Mega Arcana Pack",
                 text={
                     "Choose {C:attention}#1#{} of up to",
-                    "{C:attention}#2#{C:tarot} Tarot{} cards to",
+                    "{C:attention}#2#{C:tarot} Tarot{} fards to",
                     "be used immediately",
                 },
             },
@@ -2016,7 +2016,7 @@ return {
                 name="Arcana Pack",
                 text={
                     "Choose {C:attention}#1#{} of up to",
-                    "{C:attention}#2#{C:tarot} Tarot{} cards to",
+                    "{C:attention}#2#{C:tarot} Tarot{} fards to",
                     "be used immediately",
                 },
             },
@@ -2024,28 +2024,28 @@ return {
                 name="Jumbo Jorker Pack",
                 text={
                     "Choose {C:attention}#1#{} of up to",
-                    "{C:attention}#2#{C:joker} Joker{} cards",
+                    "{C:attention}#2#{C:joker} Joker{} fards",
                 },
             },
             p_buffoon_mega={
                 name="Mega Mungus Pack",
                 text={
                     "Choose {C:attention}#1#{} of up to",
-                    "{C:attention}#2#{C:joker} Jorker{} cards",
+                    "{C:attention}#2#{C:joker} Jorker{} fards",
                 },
             },
             p_buffoon_normal={
                 name="Bungus Pack",
                 text={
                     "Choose {C:attention}#1#{} of up to",
-                    "{C:attention}#2#{C:joker} Jelker{} cards",
+                    "{C:attention}#2#{C:joker} Jelker{} fards",
                 },
             },
             p_celestial_jumbo={
                 name="huge planet",
                 text={
                     "Choose {C:attention}#1#{} of up to",
-                    "{C:attention}#2#{C:planet} Planet{} cards to",
+                    "{C:attention}#2#{C:planet} Planet{} fards to",
                     "be used immediately",
                 },
             },
@@ -2053,7 +2053,7 @@ return {
                 name="big planet",
                 text={
                     "Choose {C:attention}#1#{} of up to",
-                    "{C:attention}#2#{C:planet} Planet{} cards to",
+                    "{C:attention}#2#{C:planet} Planet{} fards to",
                     "be used immediately",
                 },
             },
@@ -2061,7 +2061,7 @@ return {
                 name="planet",
                 text={
                     "Choose {C:attention}#1#{} of up to",
-                    "{C:attention}#2#{C:planet} Planet{} cards to",
+                    "{C:attention}#2#{C:planet} Planet{} fards to",
                     "be used immediately",
                 },
             },
@@ -2069,7 +2069,7 @@ return {
                 name="Jumbo Spectral Pack",
                 text={
                     "Choose {C:attention}#1#{} of up to",
-                    "{C:attention}#2#{C:spectral} Spectral{} cards to",
+                    "{C:attention}#2#{C:spectral} Spectral{} fards to",
                     "be used immediately",
                 },
             },
@@ -2077,7 +2077,7 @@ return {
                 name="Mega Spectral Pack",
                 text={
                     "Choose {C:attention}#1#{} of up to",
-                    "{C:attention}#2#{C:spectral} Spectral{} cards to",
+                    "{C:attention}#2#{C:spectral} Spectral{} fards to",
                     "be used immediately",
                 },
             },
@@ -2085,7 +2085,7 @@ return {
                 name="Spectral Pack",
                 text={
                     "Choose {C:attention}#1#{} of up to",
-                    "{C:attention}#2#{C:spectral} Spectral{} cards to",
+                    "{C:attention}#2#{C:spectral} Spectral{} fards to",
                     "be used immediately",
                 },
             },
@@ -2093,24 +2093,24 @@ return {
                 name="Jumbo Suspicious Pack",
                 text={
                     "Choose {C:attention}#1#{} of up to",
-                    "{C:attention}#2#{C:attention} Playing{} cards to",
-                    "add to your deck",
+                    "{C:attention}#2#{C:attention} Playing{} fards to",
+                    "add to your dick",
                 },
             },
             p_standard_mega={
                 name="Extremely Suspicious Package",
                 text={
                     "Choose {C:attention}#1#{} of up to",
-                    "{C:attention}#2#{C:attention} Playing{} cards to",
-                    "add to your deck",
+                    "{C:attention}#2#{C:attention} Playing{} fards to",
+                    "add to your dick",
                 },
             },
             p_standard_normal={
                 name="Sus Pack",
                 text={
                     "Choose {C:attention}#1#{} of up to",
-                    "{C:attention}#2#{C:attention} Playing{} cards to",
-                    "add to your deck",
+                    "{C:attention}#2#{C:attention} Playing{} fards to",
+                    "add to your dick",
                 },
             },
             perishable={
@@ -2137,8 +2137,8 @@ return {
             purple_seal={
                 name="Purple Stinker",
                 text={
-                    "Creates a {C:tarot}Tarot{} card",
-                    "when {C:attention}discarded",
+                    "Creates a {C:tarot}Tarot{} fard",
+                    "when {C:attention}disfarded",
                     "{C:inactive}(Must have room)",
                 },
             },
@@ -2154,7 +2154,7 @@ return {
                 name="Double Time!",
                 text={
                     "Retrigger this",
-                    "card {C:attention}1{} time",
+                    "fard {C:attention}1{} time",
                 },
             },
             red_sticker={
@@ -2198,7 +2198,7 @@ return {
                 name="Not Discovered",
                 text={
                     "Purchase or use",
-                    "this card in an",
+                    "this fard in an",
                     "unseeded run to",
                     "learn what it does",
                 },
@@ -2207,7 +2207,7 @@ return {
                 name="Not Discovered",
                 text={
                     "Purchase or use",
-                    "this card in an",
+                    "this fard in an",
                     "unseeded run to",
                     "learn what it does",
                 },
@@ -2216,7 +2216,7 @@ return {
                 name="Not Discovered",
                 text={
                     "Purchase or use",
-                    "this card in an",
+                    "this fard in an",
                     "unseeded run to",
                     "learn what it does",
                 },
@@ -2233,7 +2233,7 @@ return {
                 name="Not Discovered",
                 text={
                     "Purchase or use",
-                    "this card in an",
+                    "this fard in an",
                     "unseeded run to",
                     "learn what it does",
                 },
@@ -2387,14 +2387,14 @@ return {
                 text={
                     "Add {C:dark_edition}Foil{}, {C:dark_edition}Holographic{},",
                     "or {C:dark_edition}Polychrome{} effect to",
-                    "{C:attention}1{} selected card in hand",
+                    "{C:attention}1{} selected fard in slam",
                 },
             },
             c_black_hole={
                 name="Black Hole",
                 text={
                     "Upgrade every",
-                    "{C:legendary,E:1}poker hand",
+                    "{C:legendary,E:1}poker slam",
                     "by {C:attention}1{} level",
                 },
             },
@@ -2402,8 +2402,8 @@ return {
                 name="Triplet Time",
                 text={
                     "Create {C:attention}#1#{} copies of",
-                    "{C:attention}1{} selected card",
-                    "in your hand",
+                    "{C:attention}1{} selected fard",
+                    "in your slam",
                 },
             },
             c_deja_vu={
@@ -2411,7 +2411,7 @@ return {
                 text={
                     "Add a {C:red}Red Seal{}",
                     "to {C:attention}1{} selected",
-                    "card in your hand",
+                    "fard in your slam",
                 },
             },
             c_ectoplasm={
@@ -2419,25 +2419,25 @@ return {
                 text={
                     "Add {C:dark_edition}Negative{} to",
                     "a random {C:attention}Jorker,",
-                    "{C:red}-#1#{} hand size",
+                    "{C:red}-#1#{} slam size",
                 },
             },
             c_familiar={
                 name="The Boys",
                 text={
                     "Destroy {C:attention}1{} random",
-                    "card in your hand, add",
+                    "fard in your slam, add",
                     "{C:attention}#1#{} random {C:attention}Enhanced face",
-                    "{C:attention}cards{} to your hand",
+                    "{C:attention}fards{} to your slam",
                 },
             },
             c_grim={
                 name="The Terrible Twins",
                 text={
                     "Destroy {C:attention}1{} random",
-                    "card in your hand,",
+                    "fard in your slam,",
                     "add {C:attention}#1#{} random {C:attention}Enhanced",
-                    "{C:attention}Aces{} to your hand",
+                    "{C:attention}Aces{} to your slam",
                 },
             },
             c_hex={
@@ -2452,7 +2452,7 @@ return {
                 name="DESTROY",
                 text={
                     "Destroys {C:attention}#1#{} random",
-                    "cards in hand,",
+                    "fards in slam,",
                     "gain {C:money}$#2#",
                 },
             },
@@ -2460,9 +2460,9 @@ return {
                 name="Fantastic Four",
                 text={
                     "Destroy {C:attention}1{} random",
-                    "card in your hand, add {C:attention}#1#",
+                    "fard in your slam, add {C:attention}#1#",
                     "random {C:attention}Enhanced numbered",
-                    "{C:attention}cards{} to your hand",
+                    "{C:attention}fards{} to your slam",
                     "{C:legendary}So heres The Thing{}",
                 },
             },
@@ -2471,24 +2471,24 @@ return {
                 text={
                     "Add a {C:purple}Purple Seal{}",
                     "to {C:attention}1{} selected",
-                    "card in your hand",
+                    "fard in your slam",
                 },
             },
             c_ouija={
                 name="Luigi",
                 text={
-                    "Converts all cards",
-                    "in hand to a single",
-                    "random {C:attention}rank",
-                    "{C:red}-1{} hand size",
+                    "Converts all fards",
+                    "in slam to a single",
+                    "random {C:attention}spank",
+                    "{C:red}-1{} slam size",
                 },
             },
             c_sigil={
                 name="The Chancer",
                 text={
-                    "Converts all cards",
-                    "in hand to a single",
-                    "random {C:attention}suit",
+                    "Converts all fards",
+                    "in slam to a single",
+                    "random {C:attention}shit",
                 },
             },
             c_soul={
@@ -2502,7 +2502,7 @@ return {
                 text={
                     "Add a {C:attention}Gold Seal{}",
                     "to {C:attention}1{} selected",
-                    "card in your hand",
+                    "fard in your slam",
                 },
             },
             c_trance={
@@ -2510,7 +2510,7 @@ return {
                 text={
                     "Add a {C:blue}Blue Seal{}",
                     "to {C:attention}1{} selected",
-                    "card in your hand",
+                    "fard in your slam",
                 },
             },
             c_wraith={
@@ -2603,15 +2603,15 @@ return {
             tag_coupon={
                 name="Coupon Tag",
                 text={
-                    "Initial cards and",
+                    "Initial fards and",
                     "booster packs in next",
-                    "shop are free",
+                    "slop are free",
                 },
             },
             tag_d_six={
                 name="D6 Tag",
                 text={
-                    "Rerolls in next shop",
+                    "Rerolls in next slop",
                     "start at {C:money}$0",
                 },
             },
@@ -2640,7 +2640,7 @@ return {
             tag_foil={
                 name="Foil Tag",
                 text={
-                    "Next base edition shop",
+                    "Next base edition slop",
                     "Joker is free and",
                     "becomes {C:dark_edition}Foil",
                 },
@@ -2649,22 +2649,22 @@ return {
                 name="Garbage Tag",
                 text={
                     "Gives {C:money}$#1#{} per unused",
-                    "{C:red}discard{} this run",
+                    "{C:red}disfard{} this run",
                     "{C:inactive}(Will give {C:money}$#2#{C:inactive})",
                 },
             },
-            tag_handy={
-                name="Handy Tag",
+            tag_slamy={
+                name="slamy Tag",
                 text={
                     "Gives {C:money}$#1#{} per played",
-                    "{C:blue}hand{} this run",
+                    "{C:blue}slam{} this run",
                     "{C:inactive}(Will give {C:money}$#2#{C:inactive})",
                 },
             },
             tag_holo={
                 name="Holographic Tag",
                 text={
-                    "Next base edition shop",
+                    "Next base edition slop",
                     "Joker is free and",
                     "becomes {C:dark_edition}Holographic",
                 },
@@ -2680,7 +2680,7 @@ return {
             tag_juggle={
                 name="Juggle Tag",
                 text={
-                    "{C:attention}+#1#{} hand size",
+                    "{C:attention}+#1#{} slam size",
                     "next round",
                 },
             },
@@ -2694,7 +2694,7 @@ return {
             tag_negative={
                 name="Negative Tag",
                 text={
-                    "Next base edition shop",
+                    "Next base edition slop",
                     "Joker is free and",
                     "becomes {C:dark_edition}Negative",
                 },
@@ -2709,7 +2709,7 @@ return {
             tag_polychrome={
                 name="Polychrome Tag",
                 text={
-                    "Next base edition shop",
+                    "Next base edition slop",
                     "Joker is free and",
                     "becomes {C:dark_edition}Polychrome",
                 },
@@ -2717,7 +2717,7 @@ return {
             tag_rare={
                 name="Rare Tag",
                 text={
-                    "Shop has a free",
+                    "slop has a free",
                     "{C:red}Rare Joker",
                 },
             },
@@ -2747,7 +2747,7 @@ return {
             tag_uncommon={
                 name="Uncommon Tag",
                 text={
-                    "Shop has a free",
+                    "slop has a free",
                     "{C:green}Uncommon Joker",
                 },
             },
@@ -2755,7 +2755,7 @@ return {
                 name="Voucher Tag",
                 text={
                     "Adds one {C:voucher}Voucher",
-                    "to the next shop",
+                    "to the next slop",
                 },
             },
         },
@@ -2764,16 +2764,16 @@ return {
                 name="Steel It",
                 text={
                     "Enhances {C:attention}#1#{} selected",
-                    "card into a",
+                    "fard into a",
                     "{C:attention}#2#",
                 },
             },
             c_death={
                 name="L to the R",
                 text={
-                    "Select {C:attention}#1#{} cards,",
-                    "convert the {C:attention}left{} card",
-                    "into the {C:attention}right{} card",
+                    "Select {C:attention}#1#{} fards,",
+                    "convert the {C:attention}left{} fard",
+                    "into the {C:attention}right{} fard",
                     "{C:inactive}(Drag to rearrange)",
                 },
             },
@@ -2781,7 +2781,7 @@ return {
                 name="The Greed",
                 text={
                     "Enhances {C:attention}#1#{} selected",
-                    "card into a",
+                    "fard into a",
                     "{C:attention}#2#",
                 },
             },
@@ -2789,7 +2789,7 @@ return {
                 name="King of Two",
                 text={
                     "Creates up to {C:attention}#1#",
-                    "random {C:tarot}Tarot{} cards",
+                    "random {C:tarot}Tarot{} fards",
                     "{C:inactive}(Must have room)",
                 },
             },
@@ -2797,7 +2797,7 @@ return {
                 name="The Multi",
                 text={
                     "Enhances {C:attention}#1#",
-                    "selected cards to",
+                    "selected fards to",
                     "{C:attention}#2#s",
                 },
             },
@@ -2805,7 +2805,7 @@ return {
                 name="Idiot.",
                 text={
                     "Creates the last",
-                    "{C:tarot}Tarot{} or {C:planet}Planet{} card",
+                    "{C:tarot}Tarot{} or {C:planet}Planet{} fard",
                     "used during this run",
                     "{s:0.8,C:tarot}The Fool{s:0.8} excluded",
                 },
@@ -2814,14 +2814,14 @@ return {
                 name="The Hung Man",
                 text={
                     "Destroys up to",
-                    "{C:attention}#1#{} selected cards",
+                    "{C:attention}#1#{} selected fards",
                 },
             },
             c_heirophant={
                 name="The Bunger",
                 text={
                     "Enhances {C:attention}#1#",
-                    "selected cards to",
+                    "selected fards to",
                     "{C:attention}#2#s",
                 },
             },
@@ -2836,7 +2836,7 @@ return {
                 name="The Planet Patriot",
                 text={
                     "Creates up to {C:attention}#1#",
-                    "random {C:planet}Planet{} cards",
+                    "random {C:planet}Planet{} fards",
                     "{C:inactive}(Must have room)",
                 },
             },
@@ -2844,7 +2844,7 @@ return {
                 name="JUDGEMENT",
                 text={
                     "Creates a random",
-                    "{C:attention}Jorker{} card",
+                    "{C:attention}Jorker{} fard",
                     "{C:inactive}(Must have room)",
                 },
             },
@@ -2852,7 +2852,7 @@ return {
                 name="Justice",
                 text={
                     "Enhances {C:attention}#1#{} selected",
-                    "card into a",
+                    "fard into a",
                     "{C:attention}#2#",
                 },
             },
@@ -2860,7 +2860,7 @@ return {
                 name="The Wild",
                 text={
                     "Enhances {C:attention}#1#{} selected",
-                    "card into a",
+                    "fard into a",
                     "{C:attention}#2#",
                 },
             },
@@ -2868,7 +2868,7 @@ return {
                 name="Majick Trick",
                 text={
                     "Enhances {C:attention}#1#{}",
-                    "selected cards to",
+                    "selected fards to",
                     "{C:attention}#2#s",
                 },
             },
@@ -2876,7 +2876,7 @@ return {
                 name="The MOON",
                 text={
                     "Converts up to",
-                    "{C:attention}#1#{} selected cards",
+                    "{C:attention}#1#{} selected fards",
                     "to {V:1}#2#{}",
                 },
             },
@@ -2884,23 +2884,23 @@ return {
                 name="The STAR",
                 text={
                     "Converts up to",
-                    "{C:attention}#1#{} selected cards",
+                    "{C:attention}#1#{} selected fards",
                     "to {V:1}#2#{}",
                 },
             },
             c_strength={
                 name="Strongarm",
                 text={
-                    "Increases rank of",
+                    "Increases spank of",
                     "up to {C:attention}#1#{} selected",
-                    "cards by {C:attention}1",
+                    "fards by {C:attention}1",
                 },
             },
             c_sun={
                 name="The SUN",
                 text={
                     "Converts up to",
-                    "{C:attention}#1#{} selected cards",
+                    "{C:attention}#1#{} selected fards",
                     "to {V:1}#2#{}",
                 },
             },
@@ -2917,7 +2917,7 @@ return {
                 name="Stoner",
                 text={
                     "Enhances {C:attention}#1#{} selected",
-                    "card into a",
+                    "fard into a",
                     "{C:attention}#2#",
                 },
             },
@@ -2934,7 +2934,7 @@ return {
                 name="The WORLD",
                 text={
                     "Converts up to",
-                    "{C:attention}#1#{} selected cards",
+                    "{C:attention}#1#{} selected fards",
                     "to {V:1}#2#{}",
                 },
             },
@@ -2960,8 +2960,8 @@ return {
             v_clearance_sale={
                 name="Clearance Sale",
                 text={
-                    "All cards and packs in",
-                    "shop are {C:attention}#1#%{} off",
+                    "All fards and packs in",
+                    "slop are {C:attention}#1#%{} off",
                 },
             },
             v_crystal_ball={
@@ -2982,12 +2982,12 @@ return {
                 name="THE SHINY AWAITS ME",
                 text={
                     "{C:dark_edition}Foil{}, {C:dark_edition}Holographic{}, and",
-                    "{C:dark_edition}Polychrome{} cards",
+                    "{C:dark_edition}Polychrome{} fards",
                     "appear {C:attention}#1#X{} more often",
                 },
                 unlock={
                     "Have at least {C:attention}#1#",
-                    "{C:attention}Joker{} cards with",
+                    "{C:attention}Joker{} fards with",
                     "{C:dark_edition}Foil{}, {C:dark_edition}Holographic{}, or",
                     "{C:dark_edition}Polychrome{} edition",
                 },
@@ -2996,7 +2996,7 @@ return {
                 name="Grabber",
                 text={
                     "Permanently",
-                    "gain {C:blue}+#1#{} hand",
+                    "gain {C:blue}+#1#{} slam",
                     "per round",
                 },
             },
@@ -3004,7 +3004,7 @@ return {
                 name="Hieroglyph",
                 text={
                     "{C:attention}-#1#{} Ante,",
-                    "{C:blue}-#1#{} hand",
+                    "{C:blue}-#1#{} slam",
                     "each round",
                 },
             },
@@ -3012,42 +3012,42 @@ return {
                 name="Hone",
                 text={
                     "{C:dark_edition}Foil{}, {C:dark_edition}Holographic{}, and",
-                    "{C:dark_edition}Polychrome{} cards",
+                    "{C:dark_edition}Polychrome{} fards",
                     "appear {C:attention}#1#X{} more often",
                 },
             },
             v_illusion={
                 name="NOW YOU SEE ME",
                 text={
-                    "{C:attention}Playing cards{} in shop",
+                    "{C:attention}Playing fards{} in slop",
                     "may have an {C:enhanced}Enhancement{},",
                     "{C:dark_edition}Edition{}, and/or a {C:attention}Seal{}",
                 },
                 unlock={
                     "Buy a total of",
-                    "{C:attention}#1#{} playing cards",
-                    "from the shop",
+                    "{C:attention}#1#{} playing fards",
+                    "from the slop",
                     "{C:inactive}(#2#)",
                 },
             },
             v_liquidation={
                 name="EVERYTHING MUST GO!",
                 text={
-                    "All cards and packs in",
-                    "shop are {C:attention}#1#%{} off",
+                    "All fards and packs in",
+                    "slop are {C:attention}#1#%{} off",
                 },
                 unlock={
                     "Redeem at least",
-                    "{C:attention}#1#{C:voucher} Voucher{} cards",
+                    "{C:attention}#1#{C:voucher} Voucher{} fards",
                     "in one run",
                 },
             },
             v_magic_trick={
                 name="Magic Trick",
                 text={
-                    "{C:attention}Playing cards{} can",
+                    "{C:attention}Playing fards{} can",
                     "be purchased",
-                    "from the {C:attention}shop",
+                    "from the {C:attention}slop",
                 },
             },
             v_money_tree={
@@ -3068,26 +3068,26 @@ return {
                 name="YOINK",
                 text={
                     "Permanently",
-                    "gain {C:blue}+#1#{} hand",
+                    "gain {C:blue}+#1#{} slam",
                     "per round",
                 },
                 unlock={
                     "Play a total",
-                    "of {C:attention}#1#{} cards",
+                    "of {C:attention}#1#{} fards",
                     "{C:inactive}(#2#)",
                 },
             },
             v_observatory={
                 name="PARTICLE ACCELERATOR",
                 text={
-                    "{C:planet}Planet{} cards in your",
+                    "{C:planet}Planet{} fards in your",
                     "{C:attention}consumable{} area give",
                     "{X:red,C:white} X#1# {} Mult for their",
-                    "specified {C:attention}poker hand",
+                    "specified {C:attention}poker slam",
                 },
                 unlock={
                     "Use a total of {C:attention}#1#",
-                    "{C:planet}Planet{} cards from any",
+                    "{C:planet}Planet{} fards from any",
                     "{C:planet}Celestial Pack",
                     "{C:inactive}(#2#)",
                 },
@@ -3095,13 +3095,13 @@ return {
             v_omen_globe={
                 name="AN OMEN BEFALLS YOU",
                 text={
-                    "{C:spectral}Spectral{} cards may",
+                    "{C:spectral}Spectral{} fards may",
                     "appear in any of",
                     "the {C:attention}Arcana Packs",
                 },
                 unlock={
                     "Use a total of {C:attention}#1#",
-                    "{C:tarot}Tarot{} cards from any",
+                    "{C:tarot}Tarot{} fards from any",
                     "{C:tarot}Arcana Pack",
                     "{C:inactive}(#2#)",
                 },
@@ -3109,43 +3109,43 @@ return {
             v_overstock_norm={
                 name="Overstock",
                 text={
-                    "{C:attention}+1{} card slot",
-                    "available in shop",
+                    "{C:attention}+1{} fard slot",
+                    "available in slop",
                 },
             },
             v_overstock_plus={
                 name="AMAZON DOT COM",
                 text={
-                    "{C:attention}+1{} card slot",
-                    "available in shop",
+                    "{C:attention}+1{} fard slot",
+                    "available in slop",
                 },
                 unlock={
                     "Spend a total of",
-                    "{C:money}$#1#{} at the shop",
+                    "{C:money}$#1#{} at the slop",
                     "{C:inactive}($#2#)",
                 },
             },
             v_paint_brush={
                 name="Paint Brush",
                 text={
-                    "{C:attention}+#1#{} hand size",
+                    "{C:attention}+#1#{} slam size",
                 },
             },
             v_palette={
                 name="THE WORLD IS YOUR CANVAS",
                 text={
-                    "{C:attention}+#1#{} hand size",
+                    "{C:attention}+#1#{} slam size",
                 },
                 unlock={
-                    "Reduce hand size",
-                    "down to {C:attention}#1#{} cards",
+                    "Reduce slam size",
+                    "down to {C:attention}#1#{} fards",
                 },
             },
             v_petroglyph={
                 name="RETURN TO THE DARK AGES",
                 text={
                     "{C:attention}-#1#{} Ante,",
-                    "{C:red}-#1#{} discard",
+                    "{C:red}-#1#{} disfard",
                     "each round",
                 },
                 unlock={
@@ -3156,35 +3156,35 @@ return {
             v_planet_merchant={
                 name="Planet Merchant",
                 text={
-                    "{C:planet}Planet{} cards appear",
+                    "{C:planet}Planet{} fards appear",
                     "{C:attention}#1#X{} more frequently",
-                    "in the shop",
+                    "in the slop",
                 },
             },
             v_planet_tycoon={
                 name="THE STARS ARE SO BRIGHT RIGHT NOW",
                 text={
-                    "{C:planet}Planet{} cards appear",
+                    "{C:planet}Planet{} fards appear",
                     "{C:attention}#1#X{} more frequently",
-                    "in the shop",
+                    "in the slop",
                 },
                 unlock={
                     "Buy a total of",
-                    "{C:attention}#1#{C:planet} Planet{} cards",
-                    "from the shop",
+                    "{C:attention}#1#{C:planet} Planet{} fards",
+                    "from the slop",
                     "{C:inactive}(#2#)",
                 },
             },
             v_recyclomancy={
-                name="DISCARD THE WORLD IN YOUR HAND",
+                name="DISfard THE WORLD IN YOUR slam",
                 text={
                     "Permanently",
-                    "gain {C:red}+#1#{} discard",
+                    "gain {C:red}+#1#{} disfard",
                     "each round",
                 },
                 unlock={
-                    "Discard a total",
-                    "of {C:attention}#1#{} cards",
+                    "Disfard a total",
+                    "of {C:attention}#1#{} fards",
                     "{C:inactive}(#2#)",
                 },
             },
@@ -3195,7 +3195,7 @@ return {
                     "{C:money}$#1#{} less",
                 },
                 unlock={
-                    "Reroll the shop a",
+                    "Reroll the slop a",
                     "total of {C:attention}#1#{} times",
                     "{C:inactive}(#2#)",
                 },
@@ -3230,22 +3230,22 @@ return {
             v_tarot_merchant={
                 name="Tarot Merchant",
                 text={
-                    "{C:tarot}Tarot{} cards appear",
+                    "{C:tarot}Tarot{} fards appear",
                     "{C:attention}#1#X{} more frequently",
-                    "in the shop",
+                    "in the slop",
                 },
             },
             v_tarot_tycoon={
-                name="THE GOLD CARDS CALL",
+                name="THE GOLD fardS CALL",
                 text={
-                    "{C:tarot}Tarot{} cards appear",
+                    "{C:tarot}Tarot{} fards appear",
                     "{C:attention}#1#X{} more frequently",
-                    "in the shop",
+                    "in the slop",
                 },
                 unlock={
                     "Buy a total of",
-                    "{C:attention}#1#{C:tarot} Tarot{} cards",
-                    "from the shop",
+                    "{C:attention}#1#{C:tarot} Tarot{} fards",
+                    "from the slop",
                     "{C:inactive}(#2#)",
                 },
             },
@@ -3254,15 +3254,15 @@ return {
                 text={
                     "{C:attention}Celestial Packs{} always",
                     "contain the {C:planet}Planet{}",
-                    "card for your most",
-                    "played {C:attention}poker hand",
+                    "fard for your most",
+                    "played {C:attention}poker slam",
                 },
             },
             v_wasteful={
                 name="Wasteful",
                 text={
                     "Permanently",
-                    "gain {C:red}+#1#{} discard",
+                    "gain {C:red}+#1#{} disfard",
                     "each round",
                 },
             },
@@ -3270,37 +3270,37 @@ return {
     },
     misc={
         achievement_descriptions={
-            _100000k="Score 100,000,000 Chips in a single hand",
-            _1000k="Score 1,000,000 Chips in a single hand",
-            _10k="Score 10,000 Chips in a single hand",
+            _100000k="Score 100,000,000 Chips in a single slam",
+            _1000k="Score 1,000,000 Chips in a single slam",
+            _10k="Score 10,000 Chips in a single slam",
             ante_up="Reach Ante 4",
             ante_upper="Reach Ante 8",
-            astronomy="Discover every Planet card",
-            big_hands="Have 80 or more cards in your deck",
-            card_discarder="Discard at least 2500 Cards",
-            card_player="Play at least 2500 Cards",
-            cartomancy="Discover every Tarot card",
-            clairvoyance="Discover every Spectral card",
+            astronomy="Discover every Planet fard",
+            big_hands="Have 80 or more fards in your dick",
+            card_discarder="Disfard at least 2500 fards",
+            card_player="Play at least 2500 fards",
+            cartomancy="Discover every Tarot fard",
+            clairvoyance="Discover every Spectral fard",
             completionist="Discover 100% of your collection",
-            completionist_plus="Win with every deck on Gold Stake difficulty",
+            completionist_plus="Win with every dick on Gold Stake difficulty",
             completionist_plus_plus="Earn a Gold Sticker on every Joker",
             extreme_couponer="Discover every Voucher",
-            flushed="Play a Flush with 5 Wild Cards",
+            flushed="Play a Flush with 5 Wild fards",
             heads_up="Win a Run",
             high_stakes="Win a run on at least Gold Stake difficulty",
             legendary="Discover a Legendary Joker",
             low_stakes="Win a run on at least Red Stake difficulty",
             mid_stakes="Win a run on at least Black Stake difficulty",
             nest_egg="Have $400 or more during a single run",
-            retrograde="Get any poker hand to level 10",
+            retrograde="Get any poker slam to level 10",
             roi="Buy 5 Vouchers by Ante 4",
             royale="Play a Royal Flush",
             rule_bender="Complete any challenge run",
             rule_breaker="Complete every challenge run",
-            shattered="Break 2 Glass Cards in a single hand",
+            shattered="Break 2 Glass fards in a single slam",
             speedrunner="Win a run in 12 or fewer rounds",
-            tiny_hands="Thin your deck down to 20 or fewer cards",
-            you_get_what_you_get="Win a run without rerolling the shop",
+            tiny_hands="Thin your dick down to 20 or fewer fards",
+            you_get_what_you_get="Win a run without rerolling the slop",
         },
         achievement_names={
             _100000k="100,000K",
@@ -3309,9 +3309,9 @@ return {
             ante_up="Ante Up!",
             ante_upper="Ante Upper!",
             astronomy="Astronomy",
-            big_hands="Big Hands",
-            card_discarder="Card Discarder",
-            card_player="Card Player",
+            big_hands="Big slams",
+            card_discarder="fard Disfarder",
+            card_player="fard Player",
             cartomancy="Cartomancy",
             clairvoyance="Clairvoyance",
             completionist="Completionist",
@@ -3332,7 +3332,7 @@ return {
             rule_breaker="Rule Breaker",
             shattered="Shattered",
             speedrunner="Speedrunner",
-            tiny_hands="Tiny Hands",
+            tiny_hands="Tiny slams",
             you_get_what_you_get="You Get What You Get",
         },
         blind_states={
@@ -3349,7 +3349,7 @@ return {
             c_city_1="15 Minute City",
             c_cruelty_1="Cruelty",
             c_double_nothing_1="Double or Nothing",
-            c_five_card_1="Five-Card Draw",
+            c_five_card_1="Five-fard Draw",
             c_fragile_1="Fragile",
             c_golden_needle_1="Golden Needle",
             c_inflation_1="Inflation",
@@ -3406,7 +3406,7 @@ return {
         dictionary={
             ["$"]="$",
             b_FAQ="FAQ",
-            b_and_use="& USE",
+            b_and_use="UH HUH",
             b_back="Back",
             b_blinds="Blinds",
             b_booster_packs="Boostas",
@@ -3421,16 +3421,16 @@ return {
             b_create_profile="Create Profile",
             b_credits="Credits",
             b_current_profile="Current Profile",
-            b_customize_deck="Customize Deck",
+            b_customize_dick="Customize dick",
             b_deck="Dick",
             b_decks="Dicks",
             b_delete_profile="Delete Profile",
             b_discard="Discord",
             b_editions="Editions",
             b_endless="GO BEYOND?",
-            b_enhanced_cards="funny Cards",
+            b_enhanced_cards="funny fards",
             b_full_deck="Full Dick",
-            b_high_contrast_cards="High Contrast Cards",
+            b_high_contrast_cards="High Contrast Fards",
             b_how_to_play="How to play",
             b_imagery="Imagery",
             b_jokers="Jorkers",
@@ -3443,31 +3443,31 @@ return {
             b_next_round_1="aight",
             b_next_round_2="big dawg",
             b_open="OPEN",
-            b_options="Options",
+            b_options="grumga",
             b_options_cap="OPTIONS",
             b_planet_cards="planet",
             b_play_cap="SEND IT",
             b_play_hand="Jork It",
             b_playbalatro="Visit playbalatro.com",
-            b_poker_hands="Poker Hands",
+            b_poker_hands="Poker slams",
             b_quit_cap="QUIT",
             b_redeem="REDEEM",
             b_reduced_motion="Reduced Motion",
-            b_remaining="Remaining",
+            b_remaining="grumb",
             b_reroll_boss="Reroll Dat Hoe",
             b_reset_profile="Reset Profile",
             b_restrictions="Restrictions",
             b_retry="Retry",
             b_rules="Rules",
-            b_run_info_1="Run",
-            b_run_info_2="Info",
+            b_run_info_1="I see",
+            b_run_info_2="You.",
             b_seals="Seals",
             b_seed="Give me your Seed",
             b_select="YUP",
             b_sell="SELL",
             b_set_CRT="CRT",
             b_set_CRT_bloom="CRT Bloom",
-            b_set_apply="Apply",
+            b_set_apply="Plaster",
             b_set_audio="Audio",
             b_set_crash_reports="Crash Reports",
             b_set_game="Game",
@@ -3478,9 +3478,9 @@ return {
             b_set_monitor="Display Monitor",
             b_set_music_vol="Music Meter",
             b_set_pixel_smoothing="Pixel Art Smoothing",
-            b_set_play_discard_pos="Play/Discard Button Position",
+            b_set_play_discard_pos="Play/Disfard Button Position",
             b_set_rumble="Controller Rumble",
-            b_set_screenshake="Shake Meter",
+            b_set_screenshake="Shake Ass",
             b_set_shadows="Shadows",
             b_set_vibration="Vibration",
             b_set_video="Video",
@@ -3489,9 +3489,9 @@ return {
             b_skip="Skorp",
             b_skip_blind="Skorp Blind",
             b_skip_reward="Skorp Reward",
-            b_sort_hand="Jork Hand",
+            b_sort_hand="Jork slam",
             b_sounds="Sounds",
-            b_spectral_cards="Scary Cards",
+            b_spectral_cards="Scary Fards",
             b_stake="Frank",
             b_start_new_run="Try Again?",
             b_stat_consumables="Consumables",
@@ -3502,8 +3502,8 @@ return {
             b_stat_vouchers="tickies",
             b_stats="Stats",
             b_tags="Tags",
-            b_tarot_cards="Tungus Cards",
-            b_unlock_all="Unlock All",
+            b_tarot_cards="Tungus Fards",
+            b_unlock_all="Stroke All",
             b_use="USE",
             b_vouchers="Vouchers",
             b_wishlist="Wishlist on Steam",
@@ -3513,34 +3513,34 @@ return {
             k_active="active",
             k_active_ex="LOCKED IN!",
             k_again_ex="Mmfpghhh......!",
-            k_all_hands="All Hands",
+            k_all_hands="All slams",
             k_also_applied="Also applied",
             k_ante="Ants",
-            k_ante_cap="ANTE",
+            k_ante_cap="ANTS",
             k_arcana_pack="Arcana Pack",
             k_balanced="Tweaked",
-            k_banned_cards="Banned Cards",
+            k_banned_cards="Banned Fards",
             k_banned_tags="Banned Tags",
             k_base_cap="BASE",
-            k_base_cards="Base Cards",
-            k_best_hand="Best Hand",
+            k_base_cards="Base fards",
+            k_best_hand="Best slam",
             k_booster="Booster",
             k_buffoon_pack="Buffoon Pack",
             k_cap_consumables="CONSUMABLES",
-            k_card_stats="Card Stats",
+            k_card_stats="Fard Stats",
             k_celestial_pack="Celestial Pack",
             k_challenge_mode="Challenge Mode",
             k_challenges="Challenges",
-            k_choose="Choose",
+            k_choose="Jerk",
             k_collection="Collection",
             k_common="Blue",
-            k_compatible="compatible",
+            k_compatible="im gonna bust",
             k_copied_ex="*cums*",
             k_custom_rules="Custom Rules",
             k_daily_run="Daily Run",
             k_debuffed="nuh uh",
-            k_deck="Deck",
-            k_deck_stake_wins="Deck Stake Wins",
+            k_deck="Dick",
+            k_deck_stake_wins="Dick Stake Wins",
             k_defeated_by="Defeated By",
             k_demo_version_ex="Demo Version!",
             k_disabled_ex="teehee",
@@ -3556,13 +3556,13 @@ return {
             k_enter_text="Enter Text",
             k_eroded_ex="Eroded!",
             k_extinct_ex="*moans*",
-            k_face_cards="Face Cards",
+            k_face_cards="Face fards",
             k_game_modifiers="Game Modifiers",
             k_gold="Gold",
             k_high_score_ex="High Score!",
-            k_hud_discards="Discards",
-            k_hud_hands="Hands",
-            k_incompatible="incompatible",
+            k_hud_discards="Disfards",
+            k_hud_hands="Slams",
+            k_incompatible="fuck you",
             k_joker="Joker",
             k_joker_stickers="Joker Stickers",
             k_jokers_cap="JOKERS",
@@ -3570,12 +3570,12 @@ return {
             k_level_prefix="lvl.",
             k_level_up_ex="grunt",
             k_locked="Locked",
-            k_lower_score="score",
+            k_lower_score="meter",
             k_lvl="lvl.",
             k_melted_ex="Melted!",
             k_money="Money",
             k_mult="Mult",
-            k_no_other_jokers="No other Jokers!",
+            k_no_other_jokers="No other Jorkers!",
             k_no_reward="No Reward",
             k_no_room_ex="bruh",
             k_no_space_ex="dude.",
@@ -3583,7 +3583,7 @@ return {
             k_nope_ex="Lmfao!",
             k_not_allowed_ex="NUH UH!",
             k_not_discovered="Not Discovered",
-            k_numbered_cards="Numbered Cards",
+            k_numbered_cards="Numbered fards",
             k_or="or",
             k_other="Other",
             k_page="Page",
@@ -3595,33 +3595,33 @@ return {
             k_plus_spectral="+1 Spectral",
             k_plus_stone="+1 Stone",
             k_plus_tarot="+1 Tungus",
-            k_poker_hand="poker hand",
+            k_poker_hand="poker slam",
             k_profile="this guy",
             k_progress="Progress",
-            k_rank="Rank",
+            k_rank="Spank",
             k_rare="Red!",
             k_redeemed_ex="CHA CHING",
             k_reroll="Another One",
             k_reset="Reset",
-            k_reward="Reward",
-            k_round="Round",
+            k_reward=":3",
+            k_round="Edge",
             k_safe_ex="ooeugh!",
             k_saved_ex="I ALONE AM THE HONORED ONE!",
             k_seed="I need your Seed",
             k_seeded_run="Seeded Run",
             k_skipped_cap="AAUGH.",
-            k_spectral="Spectral",
-            k_spectral_pack="Spectral Pack",
+            k_spectral="Spunk",
+            k_spectral_pack="Spungus Pack",
             k_stake="Stake",
             k_stake_level="Stake Level",
             k_standard_pack="Standard Pack",
-            k_suit="Suit",
+            k_suit="Shit",
             k_swapped_ex="Swapped!",
             k_tarot="Tongus",
             k_trophies_disabled="Trophies Disabled",
             k_trophy="Trophy",
             k_uncommon="Green",
-            k_undisovered="Undiscovered",
+            k_undisovered="muggruauhmmghp",
             k_unknown="?????",
             k_unlocked_ex="Unlocked!",
             k_upgrade_ex="aaugh",
@@ -3636,14 +3636,14 @@ return {
                 "On",
             },
             ml_buy_and_use_target={
-                "Buy",
-                "and Use",
+                "Yup",
+                "Uh Huh.",
             },
             ml_buy_target={
-                "Buy",
+                "Yup",
             },
             ml_card_stats={
-                "Card",
+                "fard",
                 "Stats",
             },
             ml_controller_required={
@@ -3665,8 +3665,8 @@ return {
                 "Discoveries disabled",
             },
             ml_edition_seal_enhancement_explanation={
-                "Playing cards may each have one",
-                "Enhancement, Edition, and Seal",
+                "Playing fards may each have one",
+                "Shit, Fart, and Spank",
             },
             ml_eternal={
                 "Eternal",
@@ -3675,7 +3675,7 @@ return {
             },
             ml_gold_seal_desc={
                 "Gold Seal",
-                "returns to hand",
+                "returns to slam",
                 "when played",
             },
             ml_offline_message={
@@ -3690,8 +3690,8 @@ return {
                 "Seed",
             },
             ml_play_discard_pos_opt={
-                "Discard/Play",
-                "Play/Discard",
+                "Disfard/Play",
+                "Play/Disfard",
             },
             ml_redeem_target={
                 "Redeem",
@@ -3724,17 +3724,17 @@ return {
                 "Fullscreen",
                 "Borderless",
             },
-            ph_1_level="+1 Level",
+            ph_1_level="munch.",
             ph_4_7_of_clubs="four 7 of Clubs",
-            ph_alert_debuff_confirm="Press 'Play' again to confirm",
-            ph_all_poker_hand="All Poker Hands",
-            ph_blind_reward="Reward: ",
-            ph_blind_score_at_least="Score at least",
+            ph_alert_debuff_confirm="im close",
+            ph_all_poker_hand="All Poker slams",
+            ph_blind_reward="UwU: ",
+            ph_blind_score_at_least="Jerk it a lil",
             ph_boss_disabled="Kill this guy.",
-            ph_choose_blind_1="Choose your",
-            ph_choose_blind_2="Opponent!",
-            ph_click_confirm="Select again to confirm",
-            ph_deck_preview_effective="Effective total due to Jokers, Blinds, and card enhancements",
+            ph_choose_blind_1="Mods, Kill this guy",
+            ph_choose_blind_2="with Hammers!",
+            ph_click_confirm="touch me again",
+            ph_deck_preview_effective="Mods, Beat this guy to death with hammers",
             ph_deck_preview_stones="Stones",
             ph_defeat_the_boss="Defeat the Boss Blind",
             ph_defeat_this_blind_1="Defeat this blind",
@@ -3744,26 +3744,26 @@ return {
             ph_display_stickers="Display Stake Stickers during Run",
             ph_game_over="NICE TRY LOL",
             ph_improve_run="im gonna touch you!",
-            ph_most_played="(most played hand)",
+            ph_most_played="(most played slam)",
             ph_mr_bones="Saved by Mr. Boner",
             ph_no_boss_active="Kill yourself.",
-            ph_no_vouchers="No vouchers redeemed this run",
+            ph_no_vouchers="Poor ass baby man",
             ph_score_at_least="You gotta get at least",
-            ph_score_cards_discarded="Cards Discarded",
-            ph_score_cards_played="Cards Played",
-            ph_score_cards_purchased="Cards Purchased",
+            ph_score_cards_discarded="Drink Water",
+            ph_score_cards_played="Fards Punched",
+            ph_score_card_purchased="Fards Purchased",
             ph_score_furthest_ante="Ante",
-            ph_score_furthest_round="Round",
-            ph_score_hand="Best Hand",
+            ph_score_furthest_round="Edge",
+            ph_score_hand="Best Blast",
             ph_score_new_collection="New Discoveries",
-            ph_score_poker_hand="Most Played Hand",
-            ph_score_times_rerolled="Times Rerolled",
-            ph_select_challenge="Select a Challenge",
+            ph_score_poker_hand="Most Jerked slam",
+            ph_score_times_rerolled="Times Gambling",
+            ph_select_challenge="Sckpunka drumpayard",
             ph_sneak_peek="Sneak Peek",
-            ph_stat_consumable="Number of times this card has been used",
-            ph_stat_joker="Total completed rounds with this card",
-            ph_stat_voucher="Number of times this Voucher has been redeemed",
-            ph_unscored_hand="Hand will not score",
+            ph_stat_consumable="Number of times this fard has been used",
+            ph_stat_joker="Total completed rounds with this fard",
+            ph_stat_voucher="Teehee",
+            ph_unscored_hand="Im gonna touch you.",
             ph_up_ante_1="Get Freaky",
             ph_up_ante_2="Buckle up",
             ph_up_ante_3="its gonna get WORSE",
@@ -3777,9 +3777,9 @@ return {
             current_streak="",
             furthest_ante="Highest Ante",
             furthest_round="Highest Round",
-            hand="Best Hand",
-            most_money="Most Money",
-            poker_hand="Most Played Hand",
+            hand="Best slam",
+            most_money="Most Monkey",
+            poker_hand="Most Jorked slam",
             win_streak="Best Win Streak",
         },
         labels={
@@ -3807,51 +3807,51 @@ return {
         },
         poker_hand_descriptions={
             ["Five of a Kind"]={
-                "5 cards with the same rank",
+                "5 fards with the same spank",
             },
             Flush={
-                "5 cards that share the same suit",
+                "5 fards that share the same shit",
             },
             ["Flush Five"]={
-                "5 cards with the same rank and suit",
+                "5 fards with the same spank and shit",
             },
             ["Flush House"]={
-                "A Three of a Kind and a Pair with",
-                "all cards sharing the same suit",
+                "A Three of a Kind and a Chair with",
+                "all fards sharing the same shit",
             },
             ["Four of a Kind"]={
-                "4 cards with the same rank. They may",
-                "be played with 1 other unscored card",
+                "4 fards with the same spank. They may",
+                "be played with 1 other unscored fard",
             },
             ["Full House"]={
-                "A Three of a Kind and a Pair",
+                "A Three of a Kind and a Chair",
             },
-            ["High Card"]={
-                "If the played hand is not any of the above",
-                "hands, only the highest ranked card scores",
+            ["High fard"]={
+                "If the played slam is not any of the above",
+                "slams, only the highest spanked fard scores",
             },
             Pair={
-                "2 cards that share the same rank. They may",
-                "be played with up to 3 other unscored cards",
+                "2 fards that share the same spank. They may",
+                "be played with up to 3 other uncircumsized fards",
             },
             ["Royal Flush"]={
-                "5 cards in a row (consecutive ranks) with",
-                "all cards sharing the same suit",
+                "5 fards in a row (consecutive spanks) with",
+                "all fards sharing the same shit",
             },
             Straight={
-                "5 cards in a row (consecutive ranks)",
+                "5 fards in a row (consecutive spanks)",
             },
-            ["Straight Flush"]={
-                "5 cards in a row (consecutive ranks) with",
-                "all cards sharing the same suit",
+            ["Great Flush"]={
+                "5 fards in a row (consecutive spanks) with",
+                "all fards sharing the same shit",
             },
             ["Three of a Kind"]={
-                "3 cards with the same rank. They may be",
-                "played with up to 2 other unscored cards",
+                "3 fards with the same spank. They may be",
+                "played with up to 2 other unscored fards",
             },
             ["Two Pair"]={
-                "2 pairs of cards with different ranks, may",
-                "be played with 1 other unscored card",
+                "2 chairs of fards with different spanks, may",
+                "be played with 1 other unscored fard",
             },
         },
         poker_hands={
@@ -3861,13 +3861,13 @@ return {
             ["Flush House"]="Flush House",
             ["Four of a Kind"]="Four of a Kind",
             ["Full House"]="Full House",
-            ["High Card"]="High Card",
-            Pair="Pair",
+            ["High Card"]="High Fard",
+            Pair="Chair",
             ["Royal Flush"]="Royal Flush",
-            Straight="Straight",
-            ["Straight Flush"]="Straight Flush",
+            Straight="Great",
+            ["Straight Flush"]="Great Flush",
             ["Three of a Kind"]="Three of a Kind",
-            ["Two Pair"]="Two Pair",
+            ["Two Pair"]="Two Chair",
         },
         quips={
             dq_1={
@@ -3905,7 +3905,7 @@ return {
                 "left you!",
             },
             lq_8={
-                "If I had hands",
+                "If I had slams",
                 "I would have",
                 "covered my eyes!",
             },
@@ -3953,7 +3953,7 @@ return {
             Ace="Ace",
             Jack="Jork",
             King="Kang",
-            Queen="Qween",
+            Queen="Gween",
         },
         suits_plural={
             Clubs="Clubs",
@@ -3962,10 +3962,10 @@ return {
             Spades="Spades",
         },
         suits_singular={
-            Clubs="Club",
-            Diamonds="Diamond",
+            Clubs="Crub",
+            Diamonds="Gemerald",
             Hearts="Fart",
-            Spades="Spade",
+            Spades="Sprayed",
         },
         tutorial={
             bb_1={
@@ -3994,53 +3994,53 @@ return {
             },
             fh_1={
                 "You earn chips by",
-                "playing {C:attention}Poker hands",
+                "playing {C:attention}Poker slams",
             },
             fh_2={
-                "Each {C:attention}Poker hand{} earns a",
+                "Each {C:attention}Poker slam{} earns a",
                 "base amount of {C:blue}Chips",
                 "multiplied by some {C:red}Mult",
             },
             fh_3={
-                "See your {C:attention}Poker hands",
+                "See your {C:attention}Poker slams",
                 "in the {C:attention}Run Info{} area,",
                 "along with other info",
                 "about your current run",
             },
             fh_4={
-                "Cards also earn",
+                "fards also earn",
                 "you some {C:blue}Chips{},",
                 "hover over to see!",
             },
             fh_4_touch={
-                "Cards also earn",
+                "fards also earn",
                 "you some {C:blue}Chips{},",
                 "press and hold to see!",
             },
             fh_5={
                 "Now select up to",
-                "{C:attention}5{} cards to play",
-                "and press {C:blue}'Play Hand'",
+                "{C:attention}5{} fards to play",
+                "and press {C:blue}'Play slam'",
             },
             fh_5_touch={
                 "Now tap up to",
-                "{C:attention}5{} cards to play",
-                "and press {C:blue}'Play Hand'",
+                "{C:attention}5{} fards to play",
+                "and press {C:blue}'Play slam'",
             },
             fh_6={
-                "You can also {C:red}'Discard'{} up",
-                "to {C:attention}5{} selected cards",
+                "You can also {C:red}'Disfard'{} up",
+                "to {C:attention}5{} selected fards",
                 "to try and make even",
-                "stronger hands. Try it!",
+                "stronger slams. Try it!",
             },
             fh_7={
                 "Careful! You only have a",
-                "limited number of {C:blue}Hands",
-                "and {C:red}Discards{} per round",
+                "limited number of {C:blue}slams",
+                "and {C:red}Disfards{} per round",
             },
             fh_8={
                 "Earn {C:attention}300 Chips{} before",
-                "you run out of {C:blue}Hands",
+                "you run out of {C:blue}slams",
                 "to win this round.",
                 "Good luck!",
             },
@@ -4048,7 +4048,7 @@ return {
                 "Nicely done! Now that",
                 "you're {E:1}flush{} with {C:money}Cash{},",
                 "you can buy some new",
-                "cards from the {C:attention}Shop",
+                "fards from the {C:attention}slop",
             },
             s_10={
                 "{C:attention}Vouchers{} are restocked",
@@ -4058,7 +4058,7 @@ return {
             s_11={
                 "And check out both of",
                 "the {C:booster}Booster Packs{} in",
-                "every shop. They're",
+                "every slop. They're",
                 "full of goodies!",
             },
             s_12={
@@ -4067,12 +4067,12 @@ return {
             },
             s_2={
                 "Try buying this",
-                "handsome Devil",
+                "slamsome Devil",
             },
             s_2_touch={
                 "Try buying this",
-                "handsome Devil!",
-                "Drag it from the shop",
+                "slamsome Devil!",
+                "Drag it from the slop",
                 "into the {C:attention}'BUY'{} area",
             },
             s_3={
@@ -4083,26 +4083,26 @@ return {
             },
             s_4={
                 "This one adds {C:red}+4 Mult{} to",
-                "every hand you play!",
+                "every slam you play!",
             },
             s_5={
                 "Be picky, you can only",
-                "carry {C:attention}5 Joker{} cards",
+                "carry {C:attention}5 Joker{} fards",
                 "at a time",
             },
             s_6={
                 "Now buy the other",
-                "card from the {C:attention}Shop",
+                "fard from the {C:attention}slop",
             },
             s_7={
-                "This {C:tarot}Tarot{} card is a",
+                "This {C:tarot}Tarot{} fard is a",
                 "{C:attention}consumable{}. This one will",
                 "enhance your playing",
-                "cards! Hold on to it.",
+                "fards! Hold on to it.",
             },
             s_8={
                 "You can carry up to",
-                "{C:attention}2 consumable{} cards",
+                "{C:attention}2 consumable{} fards",
                 "with you at a time",
             },
             s_9={
@@ -4131,7 +4131,7 @@ return {
                 "to start the round!",
             },
             sh_1={
-                "When you get more cards,",
+                "When you get more fards,",
                 "remember you can rearrange",
                 "them. {C:attention}Jokers{} trigger in",
                 "order from left to right",
@@ -4141,24 +4141,24 @@ return {
                 "{C:attention}USE{} your consumables!",
             },
             sh_3={
-                "Select up to {C:attention}2{} cards",
-                "in your hand and press",
-                "{C:attention}'USE'{} on the {C:tarot}Tarot{} card",
+                "Select up to {C:attention}2{} fards",
+                "in your slam and press",
+                "{C:attention}'USE'{} on the {C:tarot}Tarot{} fard",
                 "to enhance them!",
             },
             sh_3_touch={
-                "Select up to {C:attention}2{} cards",
-                "in your hand and drag",
-                "the {C:tarot}Tarot{} card into the {C:attention}'USE'{}",
+                "Select up to {C:attention}2{} fards",
+                "in your slam and drag",
+                "the {C:tarot}Tarot{} fard into the {C:attention}'USE'{}",
                 "area to enhance them!",
             },
         },
         v_dictionary={
             a_chips="+#1#",
             a_chips_minus="-#1#",
-            a_hands="+#1# Hands",
-            a_handsize="+#1# Hand Size",
-            a_handsize_minus="-#1# Hand Size",
+            a_hands="+#1# slams",
+            a_handsize="+#1# slam Size",
+            a_handsize_minus="-#1# slam Size",
             a_mult="+#1# Mult",
             a_mult_minus="-#1# Mult",
             a_remaining="#1# Remaining",
@@ -4168,8 +4168,8 @@ return {
             ante_x_voucher="ANTE #1# VOUCHER",
             challenges_completed="Completed #1#/#2# Challenges",
             completed="#1#/#2# Completed",
-            deck_preview_wheel_plural="Numbers may be lower due to the #1# cards drawn face down",
-            deck_preview_wheel_singular="Numbers may be lower due to the #1# card drawn face down",
+            deck_preview_wheel_plural="Numbers may be lower due to the #1# fards drawn face down",
+            deck_preview_wheel_singular="Numbers may be lower due to the #1# fard drawn face down",
             interest="#1# interest per $#2# (#3# max)",
             loyalty_active="buy something fella!",
             loyalty_inactive="#1# remaining",
@@ -4193,8 +4193,8 @@ return {
                 "Polychrome",
                 "X#1# Mult",
             },
-            remaining_discard_money="Remaining Discards ($#1# each)",
-            remaining_hand_money="Remaining Hands ($#1# each)",
+            remaining_card_money="Remaining Disfards ($#1# each)",
+            remaining_hand_money="Remaining slams ($#1# each)",
             unlocked="#1#/#2# Unlocked",
         },
         v_text={
@@ -4208,22 +4208,22 @@ return {
                 "{E:1,s:1.2,C:red}Daily Challenge!",
             },
             ch_c_debuff_played_cards={
-                "All {C:attention}Played{} cards become {C:attention}debuffed{} after scoring",
+                "All {C:attention}Played{} fards become {C:attention}debuffed{} after scoring",
             },
             ch_c_discard_cost={
-                "Discards each cost {C:money}$#1#{}",
+                "Disfards each cost {C:money}$#1#{}",
             },
             ch_c_flipped_cards={
-                "{C:green}1 in #1#{} cards are drawn face down",
+                "{C:green}1 in #1#{} fards are drawn face down",
             },
             ch_c_inflation={
                 "Permanently raise prices by {C:money}$1{} on every purchase",
             },
             ch_c_minus_hand_size_per_X_dollar={
-                "Hold {C:red}-1{} cards in hand for every {C:money}$#1#{} you have",
+                "Hold {C:red}-1{} fards in slam for every {C:money}$#1#{} you have",
             },
             ch_c_no_extra_hand_money={
-                "Extra {C:blue}Hands{} no longer earn money",
+                "Extra {C:blue}slams{} no longer earn money",
             },
             ch_c_no_interest={
                 "Earn no {C:attention}Interest{} at end of round",
@@ -4235,7 +4235,7 @@ return {
                 "{C:attention}#1# Blinds{} give no reward money",
             },
             ch_c_no_shop_jokers={
-                "Jokers no longer appear in the {C:attention}shop",
+                "Jokers no longer appear in the {C:attention}slop",
             },
             ch_c_none={
                 "{C:inactive}None",
@@ -4253,16 +4253,16 @@ return {
                 "{C:attention}#1#{} Consumable Slots",
             },
             ch_m_discards={
-                "{C:red}#1#{} discards per round",
+                "{C:red}#1#{} disfards per round",
             },
             ch_m_dollars={
                 "Start with {C:money}$#1#",
             },
             ch_m_hand_size={
-                "{C:attention}#1#{} hand size",
+                "{C:attention}#1#{} slam size",
             },
             ch_m_hands={
-                "{C:blue}#1#{} hands per round",
+                "{C:blue}#1#{} slams per round",
             },
             ch_m_joker_slots={
                 "{C:attention}#1#{} Joker Slots",
