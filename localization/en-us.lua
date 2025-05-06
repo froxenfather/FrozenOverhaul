@@ -827,7 +827,7 @@ return {
             j_dusk={
                 name="Sunset",
                 text={
-                    "Retrigger all played",
+                    "Retickle all played",
                     "fards in {C:attention}final",
                     "{C:attention}slam{} of round",
                 },
@@ -991,7 +991,7 @@ return {
             j_hack={
                 name="Tough Crowd",
                 text={
-                    "Retrigger",
+                    "Retickle",
                     "each played",
                     "{C:attention}2{}, {C:attention}3{}, {C:attention}4{}, or {C:attention}5{}",
                 },
@@ -1016,7 +1016,7 @@ return {
             j_hanging_chad={
                 name="Gigachad",
                 text={
-                    "Retrigger {C:attention}first{} played",
+                    "Retickle {C:attention}first{} played",
                     "fard used in scoring",
                     "{C:attention}#1#{} additional times",
                 },
@@ -1211,7 +1211,7 @@ return {
             j_mime={
                 name="Average Italian",
                 text={
-                    "Retrigger all",
+                    "Retickle all",
                     "fard {C:attention}held in",
                     "{C:attention}slam{} abilities",
                 },
@@ -1488,7 +1488,7 @@ return {
             j_selzer={
                 name="The Juicebox",
                 text={
-                    "Retrigger all",
+                    "Retickle all",
                     "fards played for",
                     "the next {C:attention}#1#{} slams",
                 },
@@ -1556,7 +1556,7 @@ return {
             j_sock_and_buskin={
                 name="Cock my Ballskin",
                 text={
-                    "Retrigger all",
+                    "Retickle all",
                     "played {C:attention}face{} fards",
                 },
                 unlock={
@@ -2153,7 +2153,7 @@ return {
             red_seal={
                 name="Double Time!",
                 text={
-                    "Retrigger this",
+                    "Retickle this",
                     "fard {C:attention}1{} time",
                 },
             },
@@ -3410,7 +3410,7 @@ return {
             b_back="Back",
             b_blinds="Blinds",
             b_booster_packs="Boostas",
-            b_buy="Cha Ching?",
+            b_buy="Yup.",
             b_cash_out="Crash Out",
             b_challenges="Evil Gang",
             b_collection="Erection",
@@ -3442,7 +3442,7 @@ return {
             b_next="Go Next",
             b_next_round_1="aight",
             b_next_round_2="big dawg",
-            b_open="OPEN",
+            b_open="YUP",
             b_options="grumga",
             b_options_cap="OPTIONS",
             b_planet_cards="planet",
@@ -3956,10 +3956,10 @@ return {
             Queen="Gween",
         },
         suits_plural={
-            Clubs="Clubs",
-            Diamonds="Diamonds",
+            Clubs="Crubs",
+            Diamonds="Gemeralds",
             Hearts="Farts",
-            Spades="Spades",
+            Spades="Spraydes",
         },
         suits_singular={
             Clubs="Crub",
