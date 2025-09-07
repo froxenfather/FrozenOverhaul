@@ -150,13 +150,13 @@ SMODS.Back{
 
 	calculate = function (self, back, context)
 		if context.end_of_round and not context.repetition and not context.individual and G.GAME.blind.boss then
-			G.GAME.starting_params.ante_scaling = G.GAME.starting_params.ante_scaling * 1.3
+			G.GAME.starting_params.ante_scaling = G.GAME.starting_params.ante_scaling * 2.0
 		end
 	end,
 
     apply = function()
 
-		G.GAME.starting_params.ante_scaling = 15
+		G.GAME.starting_params.ante_scaling = 30
 
 
         G.E_MANAGER:add_event(Event({
